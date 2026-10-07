@@ -1,0 +1,23 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "PDTSourceSelection.quadraticSelection",
+    "PDTSourceSelection.quadraticUniqueness",
+    "PDTSourceSelection.finiteCertificate",
+    "PDTSourceSelection.conservationSelection",
+    "PDTSourceSelection.conservationHodgeInvariance",
+    "PDTSourceSelection.smoothClassification",
+    "PDTSourceSelection.smoothZeroFieldSelection",
+    "PDTSourceSelection.differentiableSourcefulClassification",
+    "PDTSourceSelection.differentiableNormalizedSelection",
+    "PDTSourceSelection.traceNecessity",
+    "PDTSourceSelection.covarianceNecessity",
+    "PDTSourceSelection.smoothNecessity"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ]
+}

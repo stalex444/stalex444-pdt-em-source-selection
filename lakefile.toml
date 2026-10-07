@@ -1,0 +1,272 @@
+name = "pdt_em_source_selection"
+version = "0.1.0"
+defaultTargets = ["Solution","Challenge"]
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "065356127b1dc0016f66b7283ce0ce2c4055aa55"
+
+[[lean_lib]]
+name = "GravityScreening"
+
+[[lean_lib]]
+name = "BackgroundRigidity"
+
+[[lean_lib]]
+name = "BoundaryAction"
+
+[[lean_lib]]
+name = "BoundaryConnection"
+
+[[lean_lib]]
+name = "CalibratedSourceful"
+
+[[lean_lib]]
+name = "CentralizerDimension"
+
+[[lean_lib]]
+name = "CentralizerSplit"
+
+[[lean_lib]]
+name = "ConservationBridge"
+
+[[lean_lib]]
+name = "ConservationConsequences"
+
+[[lean_lib]]
+name = "ConservationControls"
+
+[[lean_lib]]
+name = "ConservationData"
+
+[[lean_lib]]
+name = "ConservationJets"
+
+[[lean_lib]]
+name = "ConservationLaws"
+
+[[lean_lib]]
+name = "ConservationRecovery"
+
+[[lean_lib]]
+name = "ConservedSourceSelection"
+
+[[lean_lib]]
+name = "CovarianceCertificate"
+
+[[lean_lib]]
+name = "CrossSource"
+
+[[lean_lib]]
+name = "CubicInvariance"
+
+[[lean_lib]]
+name = "CurrentFrame"
+
+[[lean_lib]]
+name = "DifferentiableSourceful"
+
+[[lean_lib]]
+name = "EMActionKernel"
+
+[[lean_lib]]
+name = "EinsteinMaxwellInterface"
+
+[[lean_lib]]
+name = "EinsteinStressSource"
+
+[[lean_lib]]
+name = "ExteriorKernel"
+
+[[lean_lib]]
+name = "ExtraSymmetry"
+
+[[lean_lib]]
+name = "FixedHodgeSource"
+
+[[lean_lib]]
+name = "FixedHodgeSymmetry"
+
+[[lean_lib]]
+name = "GeometricTransport"
+
+[[lean_lib]]
+name = "HessianCovariance"
+
+[[lean_lib]]
+name = "HodgeConnection"
+
+[[lean_lib]]
+name = "HodgeReference"
+
+[[lean_lib]]
+name = "IntegrabilityCertificate"
+
+[[lean_lib]]
+name = "JointStabilizer"
+
+[[lean_lib]]
+name = "LinearSourceBridge"
+
+[[lean_lib]]
+name = "LinearSourceData"
+
+[[lean_lib]]
+name = "LinearSourceRecovery"
+
+[[lean_lib]]
+name = "LorentzFrame"
+
+[[lean_lib]]
+name = "LowerCovariance"
+
+[[lean_lib]]
+name = "MaxwellHodge"
+
+[[lean_lib]]
+name = "MaxwellResponse"
+
+[[lean_lib]]
+name = "MaxwellSymbol"
+
+[[lean_lib]]
+name = "MovingConnection"
+
+[[lean_lib]]
+name = "PfaffianBridge"
+
+[[lean_lib]]
+name = "PfaffianCubic"
+
+[[lean_lib]]
+name = "PolynomialConsequences"
+
+[[lean_lib]]
+name = "PolynomialSelection"
+
+[[lean_lib]]
+name = "PolynomialSource"
+
+[[lean_lib]]
+name = "PolynomialUniqueness"
+
+[[lean_lib]]
+name = "QuadraticSource"
+
+[[lean_lib]]
+name = "ReferenceCentralizer"
+
+[[lean_lib]]
+name = "ResponseBridge"
+
+[[lean_lib]]
+name = "ResponseClosureCertificate"
+
+[[lean_lib]]
+name = "ResponseClosureGeometry"
+
+[[lean_lib]]
+name = "ResponseClosureOrthogonalBasis"
+
+[[lean_lib]]
+name = "ScopeAudit"
+
+[[lean_lib]]
+name = "SignedTransport"
+
+[[lean_lib]]
+name = "SmoothCalculus"
+
+[[lean_lib]]
+name = "SmoothConsequences"
+
+[[lean_lib]]
+name = "SmoothFamily"
+
+[[lean_lib]]
+name = "SmoothGradient"
+
+[[lean_lib]]
+name = "SmoothIntegrability"
+
+[[lean_lib]]
+name = "SmoothSelection"
+
+[[lean_lib]]
+name = "SourceActionFormulas"
+
+[[lean_lib]]
+name = "SourceActionKernel"
+
+[[lean_lib]]
+name = "SourceCoefficientBridge"
+
+[[lean_lib]]
+name = "SourceCoefficientData"
+
+[[lean_lib]]
+name = "SourceCoefficientRecovery"
+
+[[lean_lib]]
+name = "SourceControls"
+
+[[lean_lib]]
+name = "SourceKernelConsequences"
+
+[[lean_lib]]
+name = "SourceMaxwell"
+
+[[lean_lib]]
+name = "SourceSelection"
+
+[[lean_lib]]
+name = "SourcefulControls"
+
+[[lean_lib]]
+name = "SourcefulLaw"
+
+[[lean_lib]]
+name = "SourcefulSelection"
+
+[[lean_lib]]
+name = "StabilizerControls"
+
+[[lean_lib]]
+name = "StabilizerRecovery"
+
+[[lean_lib]]
+name = "StabilizerTests"
+
+[[lean_lib]]
+name = "StressBalance"
+
+[[lean_lib]]
+name = "StressTensor"
+
+[[lean_lib]]
+name = "UnrestrictedSourceKernel"
+[[lean_lib]]
+name = "FinitePfaffian"
+
+[[lean_lib]]
+name = "ExteriorMetric"
+
+[[lean_lib]]
+name = "CubicPolarization"
+
+[[lean_lib]]
+name = "FiniteHodge"
+
+[[lean_lib]]
+name = "ExteriorAction"
+
+[[lean_lib]]
+name = "StatementBridge"
+
+[[lean_lib]]
+name = "Challenge"
+
+[[lean_lib]]
+name = "Solution"
+

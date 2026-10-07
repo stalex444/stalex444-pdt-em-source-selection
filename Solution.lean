@@ -32,10 +32,11 @@ theorem conservationHodgeInvariance (S : Local → Tensor) (hq : IsQuadraticSour
     (hc : Conserved S) (x : Local) : S (J *ᵥ x)=S x :=
   conservationHodgeInvariance_proof S hq hc x
 
-/-- Every globally C³ symmetric conserved source lies in the seventeen-parameter family. -/
-theorem smoothClassification (S : Local → Tensor) (hr : RegularSource S) (hc : Conserved S) :
-    ∃ A : ConstantCoeff, ∃ b : Local, ∃ d : ℝ, S=conservedFamily A b d :=
-  smoothClassification_proof S hr hc
+/-- The globally C³ symmetric conserved sources are exactly the seventeen-parameter family. -/
+theorem smoothClassification (S : Local → Tensor) :
+    (RegularSource S ∧ Conserved S) ↔
+      ∃ A : ConstantCoeff, ∃ b : Local, ∃ d : ℝ, S=conservedFamily A b d :=
+  smoothClassification_proof S
 
 /-- For C³ conserved covariant sources, zero field value ⇔ zero trace ⇔ the Maxwell line. -/
 theorem smoothZeroFieldSelection (S : Local → Tensor) (hr : RegularSource S)

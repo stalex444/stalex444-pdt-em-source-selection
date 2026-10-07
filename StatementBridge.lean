@@ -424,10 +424,15 @@ theorem conservationHodgeInvariance_proof (S : Local → Tensor) (hq : IsQuadrat
     (hc : Conserved S) (x : Local) : S (J *ᵥ x)=S x :=
   PDTConservedSource.conservation_forces_hodge_invariance S hq hc x
 
-theorem smoothClassification_proof (S : Local → Tensor) (hr : RegularSource S) (hc : Conserved S) :
-    ∃ A : ConstantCoeff, ∃ b : Local, ∃ d : ℝ, S=conservedFamily A b d :=
-  (PDTPolynomialSource.conserved_polynomial_classification S
-    (PDTSmoothSource.regular_source_polynomial S hr hc)).mp hc
+theorem smoothClassification_proof (S : Local → Tensor) :
+    (RegularSource S ∧ Conserved S) ↔
+      ∃ A : ConstantCoeff, ∃ b : Local, ∃ d : ℝ, S=conservedFamily A b d := by
+  constructor
+  · rintro ⟨hr, hc⟩
+    exact (PDTPolynomialSource.conserved_polynomial_classification S
+      (PDTSmoothSource.regular_source_polynomial S hr hc)).mp hc
+  · rintro ⟨A, b, d, rfl⟩
+    exact PDTSmoothSource.full_smooth_conserved_family A b d
 
 theorem smoothZeroFieldSelection_proof (S : Local → Tensor) (hr : RegularSource S)
     (hc : Conserved S) (hv : Covariant S) :

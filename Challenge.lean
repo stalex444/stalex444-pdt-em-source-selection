@@ -9,21 +9,32 @@ Six real components x : Fin 6 → ℝ of an antisymmetric 4×4 field F, metric �
 A *source* is a symmetric 4×4 tensor-valued function of x. The Maxwell stress of scale d is
 `registerStress d (embed x)`.
 
-Compared statements (all definitions below import Mathlib alone):
-1. Quadratic sources (all 210 coefficients free): Lorentz covariance under the six displayed
+Twelve compared statements (all definitions below import Mathlib alone):
+1. Homogeneous quadratic sources (`source c`, all 210 coefficients free; symmetric by
+   construction, no constant or linear term): Lorentz covariance under the six displayed
    generators together with zero η-trace holds iff the source is the Maxwell stress up to a
-   unique real scale; a finite certificate of 209 linear equations is equivalent to both laws.
-2. Conservation alone — vanishing divergence on every source-free Maxwell/Bianchi first jet —
-   selects the same line among quadratic sources, and forces invariance under the Hodge map J.
-3. Globally C³ symmetric sources conserved on all source-free jets lie in the family
-   constant + cross(b) + Maxwell stress; with covariance, zero field value is equivalent to
-   zero trace and to the Maxwell line.
+   unique real scale; a finite certificate of 209 linear equations is equivalent to both laws
+   (`quadraticSelection`, `quadraticUniqueness`, `finiteCertificate`).
+2. Among the same homogeneous quadratic sources, conservation alone — vanishing divergence on
+   every source-free Maxwell/Bianchi first jet — selects the same line, and forces invariance
+   under the Hodge map J (`conservationSelection`, `conservationHodgeInvariance`).
+3. A symmetric source is globally C³ and conserved on all source-free jets iff it lies in the
+   family constant + cross(b) + Maxwell stress; with covariance, zero field value is equivalent
+   to zero trace and to the Maxwell line (`smoothClassification`, `smoothZeroFieldSelection`).
 4. With the sourceful exchange law at current stiffness k, every everywhere-differentiable
-   symmetric source is a constant plus the Maxwell stress of scale exactly k; S 0 = 0 selects
-   the stress.
+   symmetric source is a constant plus the Maxwell stress of scale exactly k, and conversely;
+   S 0 = 0 selects the stress (`differentiableSourcefulClassification`,
+   `differentiableNormalizedSelection`).
 5. Necessity controls: dropping trace-zero admits η·(invariant); dropping covariance admits an
-   anisotropic quadratic; a conserved cross term is not covariant; a conserved covariant source
-   can have nonzero trace.
+   anisotropic quadratic; in the C³ setting a conserved cross term is not covariant, and the
+   constant η is conserved and covariant with nonzero trace, so the zero-field normalization
+   cannot be dropped (`traceNecessity`, `covarianceNecessity`, `smoothNecessity`).
+
+Index convention: the six slots hold the contravariant components F^{μν} with index 3 the time
+direction; `tensorAction` is the induced action on a contravariant rank-two tensor; a first jet
+D assigns to each coordinate μ the partial derivative ∂_μ of the six components. Covariance is
+proper infinitesimal Lorentz covariance (the six tables are a basis of so(3,1)). `divergence`
+uses `deriv`; every compared statement assumes a polynomial, C³ or differentiable source.
 
 The frame, metric and generators are supplied inputs. Nothing here selects a physical coupling.
 -/
@@ -395,9 +406,10 @@ theorem conservationSelection (S : Local → Tensor) (hq : IsQuadraticSource S) 
 theorem conservationHodgeInvariance (S : Local → Tensor) (hq : IsQuadraticSource S)
     (hc : Conserved S) (x : Local) : S (J *ᵥ x)=S x := by sorry
 
-/-- Every globally C³ symmetric conserved source lies in the seventeen-parameter family. -/
-theorem smoothClassification (S : Local → Tensor) (hr : RegularSource S) (hc : Conserved S) :
-    ∃ A : ConstantCoeff, ∃ b : Local, ∃ d : ℝ, S=conservedFamily A b d := by sorry
+/-- The globally C³ symmetric conserved sources are exactly the seventeen-parameter family. -/
+theorem smoothClassification (S : Local → Tensor) :
+    (RegularSource S ∧ Conserved S) ↔
+      ∃ A : ConstantCoeff, ∃ b : Local, ∃ d : ℝ, S=conservedFamily A b d := by sorry
 
 /-- For C³ conserved covariant sources, zero field value ⇔ zero trace ⇔ the Maxwell line. -/
 theorem smoothZeroFieldSelection (S : Local → Tensor) (hr : RegularSource S)
@@ -425,8 +437,8 @@ theorem covarianceNecessity :
     TraceFree (source anisotropicCoefficients) ∧
     ¬ Covariant (source anisotropicCoefficients) := by sorry
 
-/-- In the smooth setting both laws remain necessary: a conserved cross term is not covariant,
-and a conserved covariant source can carry nonzero trace. -/
+/-- In the C³ setting covariance and the zero-field normalization are each necessary: a conserved
+cross term is not covariant, and the constant η is conserved and covariant with nonzero trace. -/
 theorem smoothNecessity :
     (RegularSource (conservedFamily 0 ![1,0,0,0,0,0] 0) ∧
       Conserved (conservedFamily 0 ![1,0,0,0,0,0] 0) ∧

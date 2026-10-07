@@ -4,18 +4,21 @@ project:
   name: Selection of the electromagnetic source tensor by covariance, conservation and the exchange law
   description: On a fixed flat Lorentz frame with metric diag(1,1,1,-1), sources are symmetric 4x4 tensor-valued
     functions of the six real components of an antisymmetric field. Twelve kernel-checked statements. Among all
-    symmetric quadratic sources (210 free coefficients), the six infinitesimal Lorentz covariance equations together
-    with zero trace select the Maxwell stress up to a unique real scale, and a displayed certificate of 209 linear
-    coefficient equations is equivalent to both laws. Conservation alone - vanishing divergence on every source-free
-    Maxwell/Bianchi first jet - selects the same line, with covariance, trace zero and Hodge invariance derived rather
-    than assumed. Every globally C^3 symmetric conserved source lies in an explicit seventeen-parameter family
-    (constant, a six-parameter cross term, and the stress), and with covariance zero field value is equivalent to zero
-    trace and to the stress line. Under the sourceful exchange law at current stiffness k, every everywhere-differentiable
-    symmetric source is a constant plus the Maxwell stress of scale exactly k, with no polynomial, degree, C^3, covariance
-    or trace hypothesis; zero field value selects the stress. Explicit counterexamples show each hypothesis is necessary.
-    Uniqueness of the Maxwell stress tensor is classical (Fock 1964; Kerrighan 1982; Navarro-Sancho 2012; the
-    classification of Maxwell conservation laws by Anco-Pohjanpelto 2001); the contribution is the constructive,
-    kernel-checked development on the explicit register with finite certificates, the covariance-free routes, and the
+    symmetric homogeneous quadratic sources (210 free coefficients), the six infinitesimal Lorentz covariance equations
+    together with zero trace select the Maxwell stress (the electromagnetic energy-momentum tensor) up to a unique real
+    scale, and a displayed certificate of 209 linear coefficient equations is equivalent to both laws. Among the same
+    homogeneous quadratic sources, conservation alone - vanishing divergence on every source-free Maxwell/Bianchi first
+    jet - selects the same line, with covariance, trace zero and Hodge invariance derived rather than assumed. The
+    globally C^3 symmetric conserved sources are exactly an explicit seventeen-parameter family (constant, a
+    six-parameter cross term, and the stress), and with covariance zero field value is equivalent to zero trace and to
+    the stress line. Under the sourceful exchange law at current stiffness k (the real factor multiplying the jet
+    current), every everywhere-differentiable symmetric source is a constant plus the Maxwell stress of scale exactly k,
+    and conversely, with no polynomial, degree, C^3, covariance or trace hypothesis; zero field value selects the stress.
+    Explicit counterexamples show that covariance and zero trace are each necessary in the quadratic selection, and that
+    covariance and the zero-field normalization are each necessary in the C^3 selection. Uniqueness of the Maxwell
+    stress tensor is classical (Fock 1964; Kerrighan 1982; Navarro-Sancho 2012; the classification of Maxwell
+    conservation laws by Anco-Pohjanpelto 2001); the contribution is the constructive, kernel-checked development on the
+    explicit register at finite regularity, with finite certificates, the covariance-free routes, and the
     differentiable-only sourceful statement. Pisot Dimensional Theory motivates the frame; no physical coupling is selected.
   authors:
   - Stephanie Alexander
@@ -27,11 +30,13 @@ repository:
 classification:
   arxiv:
   - math-ph
-  - math.RT
+  - cs.LO
   msc2020:
   - 15A72
   - 35Q61
   - 70S10
+  - 78A25
+  - 68V20
 sources:
 - title: Selection of the electromagnetic source tensor by covariance, conservation and the exchange law
   authors:
@@ -41,25 +46,44 @@ sources:
   relationship: other
   author_endorsement: participated
   note: The finite certificates, coefficient recovery, conservation-only and differentiable-only routes and the
-    necessity counterexamples were developed in the PDT Lean research (Canon 2, C2-059, C2-060, C2-062, C2-063,
-    verified 30 September 2026) and are presented together here. This designation does not assert novelty for the
+    necessity counterexamples were developed in the PDT Lean research (Canon 2, C2-059, C2-060, C2-061, C2-062,
+    C2-063, verified 30 September 2026) and are presented together here. This designation does not assert novelty for the
     uniqueness of the Maxwell stress tensor; PRIOR_WORK.md situates the statements against the literature.
 - title: The Theory of Space, Time and Gravitation (2nd revised edition)
   authors:
   - V. Fock
   type: book
-  location: Pergamon Press, 1964, section 31* and Appendix B
+  location: Pergamon Press, 1964, section 31* (pp. 98-100) and Appendix B (pp. 411-416)
   relationship: background
   author_endorsement: not-contacted
   note: Symmetric field-only source, six Lorentz covariance equations and divergence zero on source-free Maxwell solutions
     imply alpha times the Maxwell stress plus lambda times the metric, and zero field value removes lambda. Contains the
-    covariance corollary of the smooth classification here; not the quadratic certificate, the conservation-only route,
-    or the sourceful statement.
-- title: An electromagnetic energy-momentum tensor uniqueness theorem
+    covariance corollary of the smooth classification here, for the regularity Fock assumes; not the quadratic
+    certificate, the conservation-only route, or the sourceful statement.
+- title: Proof of the uniqueness of the electromagnetic energy momentum tensor
   authors:
-  - B. Kerrighan
+  - C. D. Collinson
   type: paper
-  location: Journal of Mathematical Physics 23 (1982), 1979-1980
+  location: Mathematical Proceedings of the Cambridge Philosophical Society 66 (1969), 437-438, doi:10.1017/S0305004100045175
+  relationship: background
+  author_endorsement: not-contacted
+  note: Fock's uniqueness theorem in four-dimensional covariant form (abstract read; text not retrieved).
+- title: The electromagnetic energy momentum tensor and its uniqueness
+  authors:
+  - D. Lovelock
+  type: paper
+  location: International Journal of Theoretical Physics 10 (1974), 59-65, doi:10.1007/BF01808316
+  relationship: background
+  author_endorsement: not-contacted
+  note: A symmetric tensor concomitant of the metric, a field and its first derivatives, generally covariant, with a
+    divergence identity of exchange-law shape and a free coefficient tensor, is reported essentially unique (hypotheses
+    from pp. 59-60; the theorem pages were not retrieved). The closest classical analogue of the sourceful hypothesis
+    shape; overlaps the sourceful statement, neither containing the other.
+- title: On the uniqueness of the energy-momentum tensor for electromagnetism
+  authors:
+  - D. B. Kerrighan
+  type: paper
+  location: Journal of Mathematical Physics 23 (1982), 1979-1980, doi:10.1063/1.525217
   relationship: background
   author_endorsement: not-contacted
   note: The metric and the Maxwell stress are the only symmetric rank-two concomitants of a bivector and the metric whose
@@ -75,7 +99,9 @@ sources:
   author_endorsement: not-contacted
   note: Complete classification of local conservation laws of Maxwell's equations. Its order-zero sector yields the
     conservation selection and the shape of the seventeen-parameter family as an unstated corollary; the symmetric-tensor
-    statements and the cross family are not stated there.
+    statements and the cross family are not stated there. The cross family matches the symmetric assembly of their
+    elementary linear currents at a constant bivector and its Hodge dual (verified by exact computation in review on 7
+    October 2026, not formalized).
 - title: Energy and electromagnetism of a differential k-form
   authors:
   - J. Navarro
@@ -85,8 +111,10 @@ sources:
   relationship: background
   author_endorsement: not-contacted
   note: Theorem 3.5 obtains the Maxwell stress with its coefficient fixed by the current from naturality, scale
-    independence and a sourceful divergence identity. The sourceful statement here reaches the same conclusion on a fixed
-    flat frame under weaker hypotheses (everywhere differentiable, no naturality or scale axiom).
+    independence, vanishing at zero field, and a sourceful divergence identity on closed forms, for natural operators on
+    any Lorentzian manifold. The sourceful statement here reaches the same conclusion under different, incomparable
+    hypotheses - symmetric, field-only sources on one fixed flat frame, everywhere differentiable, with the same zero-field
+    normalization but no naturality or scale axiom.
 related_formalizations:
 - id: https://github.com/stalex444/pdt-hodge-lie-generation/tree/e2d8dde6f076b730b9a718c95ff1664c6aa88b51
   relationship: builds-on
@@ -182,8 +210,10 @@ automation:
       spend_usd: not tracked
       hardware: local machine
     prompting_notes: Stephanie Alexander directed the PDT research and selected this result for registration. Port changes
-      were limited to module-system declarations, guarding simplification steps that no longer act, and one heartbeat budget;
-      no statement or proof logic was changed. The original research files are preserved with their verification receipts.
+      are listed module by module in PROVENANCE.md (module-system header and one elaboration option everywhere; try and
+      all_goals guards, three removals of tactic steps that no longer act, one heartbeat budget, one visibility change, and
+      one module trimmed of registered theorems not resubmitted). No compared statement, and no research theorem the
+      bridge invokes, was changed. The original research files are preserved with their verification receipts.
   spend_usd: not tracked
   notes: AI-assisted development and local kernel checking do not constitute human peer review or a novelty determination.
     Verification status is recorded in VERIFICATION.md.
@@ -191,75 +221,83 @@ fidelity:
   divergences: The Challenge restates every definition from Mathlib alone and writes the six Lorentz generators and the
     field action as explicit tables; the research modules obtain them from the orthogonal algebra and the bridge proves the
     two presentations equal. Covariance means the stated derivative law, not finite invariance. The sources are functions of
-    the field components only; no dependence on spacetime position or field derivatives is admitted. The seventeen-parameter
-    family is stated as an explicit formula; its correspondence with the elementary linear conservation laws of Maxwell's
-    equations is a remark in PRIOR_WORK.md, not a formalized claim.
+    the field components only; no dependence on spacetime position or field derivatives is admitted. "Quadratic" means the
+    homogeneous degree-two class with symmetry built in. Jets are read with the index up, and the divergence uses deriv,
+    which is zero on non-differentiable functions; every compared statement assumes a polynomial, C^3 or differentiable
+    source. The seventeen-parameter family is stated as an explicit formula; the cross term is the polarization of the
+    stress at a constant bivector (proved in the research module CrossSource, not a compared statement), and its
+    correspondence with the elementary linear conservation laws of Maxwell's equations was verified by exact computation
+    in review (PRIOR_WORK.md), not formalized.
 review:
   status: self-assessed
   reviewers: []
   notes: A literature pass (Claude Code lit-scout, 6 October 2026) classified prior results by statement and fixed the
-    framing used here; it is recorded in PRIOR_WORK.md. No adversarial proof review has yet been run on this package.
-    These are AI reviews, not human peer review or Palomar acceptance.
+    framing used here; it is recorded in PRIOR_WORK.md. Five further AI reviews were run on 7 October 2026 and are
+    recorded in reviews/ - statement fidelity of the twelve Lean statements against the prose, a hostile audit of the
+    Challenge definitions with kernel-checked tests, a blind re-derivation of the four classifications in exact
+    arithmetic, a calibration audit of every prose surface, and a second literature pass. Their findings are applied in
+    this version (smoothClassification strengthened to an equivalence; prose brought to the content; the provenance
+    record completed). These are AI reviews, not human peer review or Palomar acceptance.
 alignment:
   namespace: PDTSourceSelection
   statements:
-  - source: Among all symmetric quadratic sources (210 free coefficients) on the six field components, Lorentz covariance under the six displayed generators together with zero eta-trace holds iff the source is the Maxwell stress up to a real scale.
+  - source: Among all symmetric homogeneous quadratic sources (210 free coefficients) on the six field components, Lorentz covariance under the six displayed generators together with zero eta-trace holds iff the source is the Maxwell stress up to a real scale.
     lean: PDTSourceSelection.quadraticSelection
     module: Solution
     status: proved
-    note: Among all symmetric quadratic sources (210 free coefficients) on the six field components, Lorentz covariance under the six displayed generators together with zero eta-trace holds iff the source is the Maxwell stress up to a real scale.
+    note: The class is homogeneous degree two with symmetry built into the coefficient indexing; covariance is the infinitesimal derivative law under the six displayed generators.
   - source: The selected scale is unique.
     lean: PDTSourceSelection.quadraticUniqueness
     module: Solution
     status: proved
-    note: The selected scale is unique.
-  - source: Two hundred and nine displayed linear coefficient equations are equivalent to the two laws on the quadratic class.
+    note: Stated as a unique existence for a source in the homogeneous quadratic class satisfying both laws.
+  - source: Two hundred and nine displayed linear coefficient equations are equivalent to the two laws on the homogeneous quadratic class.
     lean: PDTSourceSelection.finiteCertificate
     module: Solution
     status: proved
-    note: Two hundred and nine displayed linear coefficient equations are equivalent to the two laws on the quadratic class.
-  - source: Among quadratic sources, vanishing divergence on every source-free Maxwell/Bianchi first jet selects the Maxwell stress line; covariance and trace zero are not assumed.
+    note: The equations are displayed as explicit linear forms in the 210 coefficients.
+  - source: Among homogeneous quadratic sources, vanishing divergence on every source-free Maxwell/Bianchi first jet selects the Maxwell stress line; covariance and trace zero are not assumed.
     lean: PDTSourceSelection.conservationSelection
     module: Solution
     status: proved
-    note: Among quadratic sources, vanishing divergence on every source-free Maxwell/Bianchi first jet selects the Maxwell stress line; covariance and trace zero are not assumed.
-  - source: A conserved quadratic source is invariant under the displayed Hodge map on the six components.
+    note: Conservation is imposed jet-wise at a point; the six slots hold the contravariant components and D mu is the partial derivative along the mu-th coordinate; nonzero vacuum jets exist.
+  - source: A conserved homogeneous quadratic source is invariant under the displayed Hodge map on the six components.
     lean: PDTSourceSelection.conservationHodgeInvariance
     module: Solution
     status: proved
-    note: A conserved quadratic source is invariant under the displayed Hodge map on the six components.
-  - source: Every globally C^3 symmetric source conserved on all source-free jets lies in the seventeen-parameter family constant + cross(b) + Maxwell stress.
+    note: A corollary of the conservation selection and the Hodge invariance of the stress; not independent of it.
+  - source: A symmetric source is globally C^3 and conserved on all source-free jets iff it lies in the seventeen-parameter family constant + cross(b) + Maxwell stress.
     lean: PDTSourceSelection.smoothClassification
     module: Solution
     status: proved
-    note: Every globally C^3 symmetric source conserved on all source-free jets lies in the seventeen-parameter family constant + cross(b) + Maxwell stress.
+    note: Stated as an equivalence; the converse direction uses that every member of the family is C^3, symmetric and conserved.
   - source: For C^3 conserved covariant sources, zero field value is equivalent to zero trace and to the Maxwell line.
     lean: PDTSourceSelection.smoothZeroFieldSelection
     module: Solution
     status: proved
-    note: For C^3 conserved covariant sources, zero field value is equivalent to zero trace and to the Maxwell line.
+    note: Trace-free is not a hypothesis here; it is one of the three equivalent conditions.
   - source: Every everywhere-differentiable symmetric source obeying the sourceful exchange law at stiffness k on all Bianchi-compatible jets is a constant plus the Maxwell stress of scale exactly k, and conversely.
     lean: PDTSourceSelection.differentiableSourcefulClassification
     module: Solution
     status: proved
-    note: Every everywhere-differentiable symmetric source obeying the sourceful exchange law at stiffness k on all Bianchi-compatible jets is a constant plus the Maxwell stress of scale exactly k, and conversely.
+    note: The same real k appears in the law and in the conclusion; the cross term in the conclusion is zero.
   - source: With zero field value, the sourceful exchange law selects the Maxwell stress at the current stiffness.
     lean: PDTSourceSelection.differentiableNormalizedSelection
     module: Solution
     status: proved
-    note: With zero field value, the sourceful exchange law selects the Maxwell stress at the current stiffness.
+    note: The zero-field normalization is the same hypothesis Navarro-Sancho use.
   - source: "eta times the scalar invariant is covariant but not trace-free: the trace condition is necessary in the quadratic selection."
     lean: PDTSourceSelection.traceNecessity
     module: Solution
     status: proved
-    note: "eta times the scalar invariant is covariant but not trace-free: the trace condition is necessary in the quadratic selection."
+    note: The counterexample lies in the homogeneous quadratic class and violates exactly the trace law.
   - source: "The anisotropic quadratic diag(x0^2, -x0^2, 0, 0) is trace-free but not covariant: covariance is necessary."
     lean: PDTSourceSelection.covarianceNecessity
     module: Solution
     status: proved
-    note: "The anisotropic quadratic diag(x0^2, -x0^2, 0, 0) is trace-free but not covariant: covariance is necessary."
-  - source: "A conserved cross term is not covariant, and a conserved covariant source can carry nonzero trace: both laws remain necessary in the smooth setting."
+    note: The counterexample lies in the homogeneous quadratic class and violates exactly the covariance law.
+  - source: "In the C^3 setting a conserved cross term is not covariant, and the constant eta is conserved and covariant with nonzero trace: covariance and the zero-field normalization are each necessary."
     lean: PDTSourceSelection.smoothNecessity
     module: Solution
     status: proved
-    note: "A conserved cross term is not covariant, and a conserved covariant source can carry nonzero trace: both laws remain necessary in the smooth setting."
+    note: No necessity statement is made for the regularity, symmetry or homogeneity hypotheses.

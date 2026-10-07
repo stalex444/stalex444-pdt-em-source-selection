@@ -1,0 +1,1254 @@
+{
+  "created_utc": "2026-10-07T13:50:55.186126+00:00",
+  "status": "local preparation checks passed",
+  "official_palomar_preflight": "not yet run on the public commit; the workflow is dispatch-only and must be run on the exact submitted SHA",
+  "publication": "published to stalex444/stalex444-pdt-em-source-selection; no Palomar submission made",
+  "selected_declarations": [
+    "PDTSourceSelection.quadraticSelection",
+    "PDTSourceSelection.quadraticUniqueness",
+    "PDTSourceSelection.finiteCertificate",
+    "PDTSourceSelection.conservationSelection",
+    "PDTSourceSelection.conservationHodgeInvariance",
+    "PDTSourceSelection.smoothClassification",
+    "PDTSourceSelection.smoothZeroFieldSelection",
+    "PDTSourceSelection.differentiableSourcefulClassification",
+    "PDTSourceSelection.differentiableNormalizedSelection",
+    "PDTSourceSelection.traceNecessity",
+    "PDTSourceSelection.covarianceNecessity",
+    "PDTSourceSelection.smoothNecessity"
+  ],
+  "source_scan": {
+    "schema_version": 1,
+    "module_required": true,
+    "maximum_lines": 10000,
+    "files_checked": 167
+  },
+  "source_files": {
+    "BackgroundRigidity.lean": {
+      "sha256": "18cd56e775b3aa12d45f206157bb5d7babd5bb6b83ed21037bfee2d437e71cca",
+      "lines": 63,
+      "bytes": 2571,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "BoundaryAction.lean": {
+      "sha256": "fa0bcefd0f404d90d5486afd214d75da97c52401b4be66c260160559ad2a4be0",
+      "lines": 181,
+      "bytes": 7330,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "BoundaryConnection.lean": {
+      "sha256": "95a31cf6e5a3987d9d401a51841df4ca5d9a170996b059a8b1b1d23fa78f0a8f",
+      "lines": 88,
+      "bytes": 4019,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "CalibratedSourceful.lean": {
+      "sha256": "1dc1b3325b93a3bde1871fa72945e0b5d50191b073205100f0deb8ef93625259",
+      "lines": 76,
+      "bytes": 3967,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "CentralizerDimension.lean": {
+      "sha256": "c1f6cd0c066cdfd41aaf8fc627e714880f93f45c37244d3a1396be2c3eff8b51",
+      "lines": 110,
+      "bytes": 3967,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "CentralizerSplit.lean": {
+      "sha256": "bb22bc95c27398e32dad19bcea5d23105517c9cc2ed6a4bdf3d17720c4605774",
+      "lines": 164,
+      "bytes": 6547,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "Challenge.lean": {
+      "sha256": "cccb62713f320203fde5ffbb3789b4a5142c648a26e41947db5961e59ee870da",
+      "lines": 450,
+      "bytes": 20147,
+      "warnings": 12,
+      "intentional_challenge_holes": 12
+    },
+    "ConservationBridge.lean": {
+      "sha256": "75e956f2dfd863ed34629294c0eb058eaff4417ca5efae447bc5465f25e60fe4",
+      "lines": 2115,
+      "bytes": 82282,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "ConservationConsequences.lean": {
+      "sha256": "561d49f6d70894de98d6a4e67456a37f811e5982f66bca972c6f3b8e6992fa23",
+      "lines": 51,
+      "bytes": 2277,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "ConservationControls.lean": {
+      "sha256": "1e27bf16ea951149657affe931b64ac5f6f1fd7d5e383830094d7904b1fb3cbe",
+      "lines": 75,
+      "bytes": 2495,
+      "warnings": 8,
+      "intentional_challenge_holes": 0
+    },
+    "ConservationData.lean": {
+      "sha256": "9765478e79619941c8f0b454079d4d830a74a0a4c97ea1dc0ef25c0827d261a2",
+      "lines": 226,
+      "bytes": 6563,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "ConservationJets.lean": {
+      "sha256": "f375bf949b52683eb2493629d727be8f44afc7635d70a28839fe5791de1dba7d",
+      "lines": 45,
+      "bytes": 1755,
+      "warnings": 8,
+      "intentional_challenge_holes": 0
+    },
+    "ConservationLaws.lean": {
+      "sha256": "de4ae090b5d7b5cd88e4b51ea3b84ee9f0906a63dc85033c7ae56e1bde298b7f",
+      "lines": 83,
+      "bytes": 3003,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "ConservationRecovery.lean": {
+      "sha256": "71d63a4b04d7c2539e684ca94ce122467f3fca51529a8fff943220dd51324812",
+      "lines": 651,
+      "bytes": 46836,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "ConservedSourceSelection.lean": {
+      "sha256": "6643de9703e5dc959ee153b04cf6f35297d2ab52f3029f8f3eca7cce4b8abbac",
+      "lines": 71,
+      "bytes": 2882,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "CovarianceCertificate.lean": {
+      "sha256": "7c89562a14d149b041861344de0c222a58ce139cd108cb872573aa04660b5b43",
+      "lines": 1613,
+      "bytes": 52934,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "CrossSource.lean": {
+      "sha256": "032356ebd55aaa23589f37f632ecb0f7c308b6d18198c6c14a0f644e093a7841",
+      "lines": 57,
+      "bytes": 2156,
+      "warnings": 2,
+      "intentional_challenge_holes": 0
+    },
+    "CubicInvariance.lean": {
+      "sha256": "edcbabf1ef063d11e63ae1179ab3a744271c3dc80bb49d108dd377fd051cd6a4",
+      "lines": 302,
+      "bytes": 19160,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "CubicPolarization.lean": {
+      "sha256": "5905279fa0c20992d65aed0cf1d6c9728de100b56c66a6604713a0279822560c",
+      "lines": 57,
+      "bytes": 2011,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "CurrentFrame.lean": {
+      "sha256": "a0c4b452d1b765a9fbfaa4ec4382999ae2d5e7ce91747e02ef041694ca3ac508",
+      "lines": 94,
+      "bytes": 3983,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "DifferentiableSourceful.lean": {
+      "sha256": "3bdb111d6e9aa40e53e79c3a07aaa80a1a7427e09f01998d10b41cfd193346d7",
+      "lines": 161,
+      "bytes": 7052,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "EMActionKernel.lean": {
+      "sha256": "87b488697cb58135921ad03a6679269e1c31ab45a5c5da0452471bd81633a78e",
+      "lines": 198,
+      "bytes": 7068,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "EinsteinMaxwellInterface.lean": {
+      "sha256": "d31e44e52c99637c71af0b1dfe2dd369e0e5ae7ef838b7b7200180cf54554927",
+      "lines": 143,
+      "bytes": 6284,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "EinsteinStressSource.lean": {
+      "sha256": "1012c6b1a21833a434cacba414126db03d32d27b5f7e04ee77da1eca122915bd",
+      "lines": 108,
+      "bytes": 5072,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "ExteriorAction.lean": {
+      "sha256": "7f8ac26e9d58aac5233816767c25331e5e3c67bed52dcd31a2c1d5fc8a043418",
+      "lines": 65,
+      "bytes": 2241,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "ExteriorKernel.lean": {
+      "sha256": "aa5c28c7094a37c8a74667fc89cc598bcff4d51349a17a7502eb5537c61321a4",
+      "lines": 489,
+      "bytes": 23064,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "ExteriorMetric.lean": {
+      "sha256": "15a51704109971acb1ac2c9d9ee49af64368edf374d881d7d35454096349a866",
+      "lines": 49,
+      "bytes": 1733,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "ExtraSymmetry.lean": {
+      "sha256": "8ecbc05cb85e70fd94a80b126383b08fcebd7ba63d027f610caea6e571520d27",
+      "lines": 84,
+      "bytes": 3157,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "FiniteHodge.lean": {
+      "sha256": "b2f02d41db78acc288492c6a2cff342f77ff15e717190d8d04dfc6a028916f0f",
+      "lines": 99,
+      "bytes": 4281,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "FinitePfaffian.lean": {
+      "sha256": "810c9cacc88d8ea9150cc2e3f96805e9788ced3fb41eabb1e8a6ca898aae3562",
+      "lines": 576,
+      "bytes": 26034,
+      "warnings": 16,
+      "intentional_challenge_holes": 0
+    },
+    "FixedHodgeSource.lean": {
+      "sha256": "f52c4a37a64e4fff1a9b1139b186dfdc09b2479142a4a37e69a4edd79cf2a940",
+      "lines": 71,
+      "bytes": 2609,
+      "warnings": 4,
+      "intentional_challenge_holes": 0
+    },
+    "FixedHodgeSymmetry.lean": {
+      "sha256": "b70ec5c2b97cad0d2f68a2c9d85789ee6e5e3130dc1692c6484357fa6b896bc8",
+      "lines": 83,
+      "bytes": 3274,
+      "warnings": 2,
+      "intentional_challenge_holes": 0
+    },
+    "GeometricTransport.lean": {
+      "sha256": "b8e5c51f20303c704dcb9683d053a1adf7e7123658d343113328a7f97846be8c",
+      "lines": 113,
+      "bytes": 5029,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/Basic.lean": {
+      "sha256": "91f904efa0a06fe9327030117b26ab8373f23e6f24ed0b7b05d39e2eca52b3d8",
+      "lines": 1769,
+      "bytes": 72630,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/BoundaryMeasureNormalization.lean": {
+      "sha256": "31a6f2b4107efe92bf15a64e663a74b039dfcb8beb23dd3cc1403f6c3bfc7895",
+      "lines": 194,
+      "bytes": 8025,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/CanonicalEnergy.lean": {
+      "sha256": "86f36bfdb9429b68432a6fa0ee223722cef48cfca17aeb24470f4e8dcb18d2be",
+      "lines": 93,
+      "bytes": 3751,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/CanonicalPerronHorizonBridge.lean": {
+      "sha256": "3f506864da364a8e6426c730ba093779dfd00a20e88af5ab62ac63908e3454d8",
+      "lines": 230,
+      "bytes": 10504,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/ClockForcesConstitutive.lean": {
+      "sha256": "d556beda401f5e8e90f5a99b96483cd6fa1486b9be9e5dda7902dfe617197132",
+      "lines": 80,
+      "bytes": 3204,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/ClockGravityFactorization.lean": {
+      "sha256": "5c8e2a8a7300a250400b4f8a0a017f85b81c251213bab45efeede15a98db1139",
+      "lines": 138,
+      "bytes": 5460,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/ClockHodgeBridge.lean": {
+      "sha256": "759541679baffab1e3ab100371650c10d1d0c09428c34a68ab1bc8e0be257702",
+      "lines": 222,
+      "bytes": 9027,
+      "warnings": 2,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/ClockToGravityChain.lean": {
+      "sha256": "1ddb90cfede681b257471083feaabe56414c3c267e232d18f67e2280cceed47c",
+      "lines": 149,
+      "bytes": 6420,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/CoherentShearMatching.lean": {
+      "sha256": "be0cecf5006e62fa0548edc5476b9b109f8c38faba9c319e76cfc2fc6d8b2d6a",
+      "lines": 126,
+      "bytes": 5211,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/ConformalGeneratorCount.lean": {
+      "sha256": "dfb972b0ccc4b0b3607870f7d02234ef2b212e322afb517e67cd0d33c4184bbe",
+      "lines": 312,
+      "bytes": 12591,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/ConformalResponseAlgebra.lean": {
+      "sha256": "9fc8e8ac95e6bab930cb87de89409d129aafc4463b5b9ec29a5754314fc9518f",
+      "lines": 225,
+      "bytes": 8909,
+      "warnings": 2,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/ConservedFlux.lean": {
+      "sha256": "f4128008de99d82f712bba209409ae42a4cad05733ed45a44236968de74d58a0",
+      "lines": 93,
+      "bytes": 3878,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/CoreClockDuality.lean": {
+      "sha256": "7d96868f66d35178c79f5c3c45a13383b6bb6bbe6a8c9e2dea22321ecc2821fe",
+      "lines": 227,
+      "bytes": 9709,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/CubicGraphKMSData.lean": {
+      "sha256": "5b3005026016941cfe9faa408afa261c8eaeb81d0a26f0944496da6f75e61758",
+      "lines": 117,
+      "bytes": 4172,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/DoubledSpinTwoAction.lean": {
+      "sha256": "981511f040bd70373231d42a330a77520b8f0481deed4da05e70d49a6a6ed3f9",
+      "lines": 150,
+      "bytes": 5943,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/DoubledSpinTwoOperator.lean": {
+      "sha256": "562ae84f448eca3abaf710f73e09a30871f81275826f2fb49c9bf8d58b65b800",
+      "lines": 150,
+      "bytes": 6001,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/DoubledTTGaussian.lean": {
+      "sha256": "cef5ccfbab0565b6d19a44bce0087ebcdc6252f5ce4b25bb4ca5e41365ae3564",
+      "lines": 666,
+      "bytes": 27699,
+      "warnings": 1,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/EffectiveGravityClosure.lean": {
+      "sha256": "1345b6cc258ba800bfd61f1ef10019d7045efad9ed7f5a645a3cb0e83b17b103",
+      "lines": 132,
+      "bytes": 5410,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/ElectricSourceFrame.lean": {
+      "sha256": "4721506632b838a6fbda75244e5b4a39861fd1da8bc75ab634afbb5b33cf86c5",
+      "lines": 234,
+      "bytes": 9141,
+      "warnings": 4,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/ErasureCovariance.lean": {
+      "sha256": "f775747f0949ae6e975a31a8f40db8da84f39e3ba40e2b5c2d19f2057194891e",
+      "lines": 107,
+      "bytes": 4657,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/ErasureDilation.lean": {
+      "sha256": "ec53f44b69366fc4194a77d8eb5cad9803bad9852d8991b75d8564b8c6837b9e",
+      "lines": 307,
+      "bytes": 12746,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/ErasureInformation.lean": {
+      "sha256": "e9b65dd6e72df2ab331189cbf2b3478a05ef788f22c452b42803c1a1c1722113",
+      "lines": 180,
+      "bytes": 7329,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/ErasureSymplectic.lean": {
+      "sha256": "6690d38531f1b13a9f5fd1a5bb690be39c843e8cdeb840a3dab0b127f8d0c222",
+      "lines": 296,
+      "bytes": 12885,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/ErasureTTBridge.lean": {
+      "sha256": "59935a7f3b49322ed27ae0d35fbe26363d1906ed717edc6bc06edf3475a1dd03",
+      "lines": 103,
+      "bytes": 4421,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/FirstOrderSourceAction.lean": {
+      "sha256": "4dfdf6746aa5bc7bb460674f3ea4bad0e2a34c270e2cce5824b46efc94a6e896",
+      "lines": 151,
+      "bytes": 6319,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/FourModeGaussianTrace.lean": {
+      "sha256": "c6502c6a08cdeeea3577785b46eedfb5d7816d79f369339ab9aeaaf616998802",
+      "lines": 130,
+      "bytes": 5540,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/GaussianInformationGeometry.lean": {
+      "sha256": "5bcfca34b619bd1d63e0d7a0b2ab6e0110ad6c995fb960ea65b92ca96ef68b28",
+      "lines": 385,
+      "bytes": 16168,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/GeometricResponseRigidity.lean": {
+      "sha256": "26da9b0b245ebd9a1a2a7ae3b669533700015ca2ac16b0273486c452faf23292",
+      "lines": 42,
+      "bytes": 2027,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/HodgeGaussianUniqueness.lean": {
+      "sha256": "adcb49c6ae1fc2821447f919039e0def103ac98b59e9cf79af31be549dbb3bd0",
+      "lines": 192,
+      "bytes": 9689,
+      "warnings": 1,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/HodgeLieGeneration.lean": {
+      "sha256": "3a7e0969786e6849e186a59cdd02ef833ce11bac4103f60ce6e630aedf25b9f9",
+      "lines": 176,
+      "bytes": 6728,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/HodgeModeCalibration.lean": {
+      "sha256": "026554def0f4a8e16d70e3dc10305fe083b73baf5855765db36a2ae1eb126516",
+      "lines": 215,
+      "bytes": 9598,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/HodgeOrientationGauge.lean": {
+      "sha256": "4d5b8a0c43cb53d7aa1d63ebf199aeec9ad769fd22f1ba628cb4e7afae4f2c44",
+      "lines": 124,
+      "bytes": 5048,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/HodgeResponseCovariance.lean": {
+      "sha256": "6de2812be2c17136e8f07eb1e6aa49c4252fbe038d6f13d9c0a0a1768775ddb9",
+      "lines": 147,
+      "bytes": 6321,
+      "warnings": 3,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/HorizonBranch.lean": {
+      "sha256": "d16f64af9daa6e97cf761839af8c202cffa9060db34ff312373b334b01503e3a",
+      "lines": 145,
+      "bytes": 6029,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/HorizonCommutingSquare.lean": {
+      "sha256": "05a453fe08d5b6b2afdc8c401e79ed2c28cf7d7f1b7687bf8da9de7e076e491b",
+      "lines": 76,
+      "bytes": 3216,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/HorizonConstraint.lean": {
+      "sha256": "682ec5e52a0d0180c059ed273cf562c18747fa18eea486af9e85b1396248b85e",
+      "lines": 100,
+      "bytes": 4211,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/HorizonShearBridge.lean": {
+      "sha256": "19b1b0f06823ad41db53e53bd62180cf9f12190cf47dc5574eaabd2c18d7787d",
+      "lines": 225,
+      "bytes": 9165,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/HorizonShearNormalization.lean": {
+      "sha256": "5fb4a236cfd149851683896bef2a09c5f527ed028bc0a701f2d146b28347177b",
+      "lines": 85,
+      "bytes": 3574,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/InformationArea.lean": {
+      "sha256": "7e2d597a42807255206b01a2c2ff6443a6819225ac30d30ca0b1e70bd61566ff",
+      "lines": 109,
+      "bytes": 4288,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/InformationToGravityChain.lean": {
+      "sha256": "c21afd1ebbe9882caf60ad2da7cc5cc7c8a6df39d63d555519344a8e683d2731",
+      "lines": 67,
+      "bytes": 2892,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/JacobsonPlacement.lean": {
+      "sha256": "3e7e0b3cc11a09b3ea54d788638bca1b0b1b3fae2dd8471df72f03af599b31bf",
+      "lines": 86,
+      "bytes": 3366,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/KMSOpticalBoundarySelection.lean": {
+      "sha256": "8409975f799124042ff5f35ef30b27b64e6fbdb8ed6271dd92ab1758e7b4ac80",
+      "lines": 202,
+      "bytes": 8314,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/KillingRedshift.lean": {
+      "sha256": "5328fed8916c42a068a4c8a54ffb40f8d54c68e2da29cf7888f0bf313df6b963",
+      "lines": 161,
+      "bytes": 6883,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/LQGFluxAreaBridge.lean": {
+      "sha256": "72a9e3a3f7f86175e54d9d08f056773586d2106711b8ecb380a83898a8fb438c",
+      "lines": 216,
+      "bytes": 10249,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/LQGHorizonThermodynamics.lean": {
+      "sha256": "35481bb192bc7eb9751b71ae4f3943dbb336b7c0cd94a33439689bdd800a7e2b",
+      "lines": 303,
+      "bytes": 13383,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/LocalEinsteinClosure.lean": {
+      "sha256": "a73ed94c738a995dccc0e0879c0150907ced820e9f04b1f5f89b25f62810c828",
+      "lines": 197,
+      "bytes": 8123,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/LorentzPauliFierzSymbol.lean": {
+      "sha256": "63997c610e4ef81ecd4bab06dc18962c1448c0e971d961d841b6a8f9f5e8a1b8",
+      "lines": 221,
+      "bytes": 9529,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/ModularAmplitude.lean": {
+      "sha256": "90c7a9e53f7c309330f61dff1c4b8fb1136da37b1171a49fedcc234e908f8ba5",
+      "lines": 67,
+      "bytes": 2959,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/ObserverGaugeIntegration.lean": {
+      "sha256": "5872cb998d0a9ec2f230d7dbc9ab5d64a32c56edbbb92ef9a1f9eb6b120ca04c",
+      "lines": 133,
+      "bytes": 6151,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/ObserverRotationGauge.lean": {
+      "sha256": "b10f89b3bf7c1d8b6c5ca50844f9022230e0a0d37f02df06596b3bc31450def1",
+      "lines": 248,
+      "bytes": 10100,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/PauliFierzSymbol.lean": {
+      "sha256": "0064eb7e2942b7006f7218b191a85823436ef0fc4fc3547edb798bc9aa86e105",
+      "lines": 250,
+      "bytes": 9865,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/PauliFierzUniqueness.lean": {
+      "sha256": "5f122f8c478e257f7c86ac40dbd48dbe7a75b97a8fdc1a5dfbcbaecd86a6ef79",
+      "lines": 100,
+      "bytes": 3737,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/PerronHorizonCarrier.lean": {
+      "sha256": "ad42666bdd8ec21452ceefb4adc160625eb5845a4d363e4d01c6e5b27de01522",
+      "lines": 288,
+      "bytes": 12335,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/PerronOpticalRaychaudhuri.lean": {
+      "sha256": "df90c381a871bbcd652742fa8a72e90eb2ee90d26c79c54aa1289f0a5137e6f5",
+      "lines": 546,
+      "bytes": 23251,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/PerronTetrahedralBridge.lean": {
+      "sha256": "298cfa401cf90482cbf95604c7b44dbd50592f9699fd04e25cde034f97a21faa",
+      "lines": 186,
+      "bytes": 7628,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/ProjectiveModeShell.lean": {
+      "sha256": "1b56109ac255ba81ffbef9ec41702d2d239273f4b2fb341cbf477731f77a6409",
+      "lines": 125,
+      "bytes": 4964,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/QuarticGraphKMSData.lean": {
+      "sha256": "d7c8ab5ccf048d44af054577e704d25961e45a223cfada66a258e975c660c82b",
+      "lines": 170,
+      "bytes": 6924,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/QuarticModularAnalyticFlow.lean": {
+      "sha256": "47ca24144808aec3658efb6254756b2886e39b41ea33514c43bac340f313d408",
+      "lines": 100,
+      "bytes": 3973,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/RhoQBoostNormalization.lean": {
+      "sha256": "2c6cf6f1016b0000675b175c4262f6c1441a25446442ac4fbea17463368493ab",
+      "lines": 90,
+      "bytes": 3738,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/RhoQModularCompletion.lean": {
+      "sha256": "1f9e7b1a9bf1863aea5e0a9408b079ebcb908871bf24483cbcf5d4e1f108d5ab",
+      "lines": 112,
+      "bytes": 4719,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/RhoQModularIndependence.lean": {
+      "sha256": "a96a2944ed6f6bf9b489bdd4772c72975a9a6b90fa57704dffc5d1b1b4a01425",
+      "lines": 185,
+      "bytes": 7658,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/RindlerClock.lean": {
+      "sha256": "e7c8de604199c950d8c5f7dc0b7aad389d3dd2d6a37fed68d91d1a4e3e7a72f0",
+      "lines": 92,
+      "bytes": 3642,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/SignedLieGeneration.lean": {
+      "sha256": "bf259b4790432f657386a6981bc3086dc344a430c8c243eedc47deca79c82c20",
+      "lines": 152,
+      "bytes": 6001,
+      "warnings": 1,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/SourcedConstraint.lean": {
+      "sha256": "98d1fc4c86d8374a3c88cbf80c5d0cd15adc455b1c677e312af0108fc3ee0a91",
+      "lines": 238,
+      "bytes": 9746,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/SpinTwoDegreeAudit.lean": {
+      "sha256": "b2be4304258860d789a397dcd1ff785815ba6dca3cb34cc038d253740636e88b",
+      "lines": 98,
+      "bytes": 3774,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/SymplecticReduction.lean": {
+      "sha256": "fc50cad1f1b46a0b6015c7b38f302d40141b07ce6b170aabab2d18e543f99946",
+      "lines": 174,
+      "bytes": 7261,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/TTConstraintSourceClosure.lean": {
+      "sha256": "2f5865bc6238c2412edcb15c9bfbbd6096349c3547398af23be4e3e01b81c565",
+      "lines": 303,
+      "bytes": 13685,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/TTGeneralizedCurl.lean": {
+      "sha256": "9bdb96301a2bd5fce8ad238f7d7e8fbe94484125112e171acd5f06c70cc861f7",
+      "lines": 264,
+      "bytes": 10633,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/TTHorizonCode.lean": {
+      "sha256": "27308cf03dbd075299f9bd433e01ab061a401f37332fcacee56133ef63c1b05c",
+      "lines": 168,
+      "bytes": 7037,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/TTHorizonSplitter.lean": {
+      "sha256": "2c66f0a224b02c91bfd1e5fd0f7cb974e3dbcaca28905a53605ce2aafebdbe67",
+      "lines": 183,
+      "bytes": 7966,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/TTPrepotentialAction.lean": {
+      "sha256": "c044feeb5c5905e8cb70a7a85ee8287038ead79ee08e66dca9402a8c6556a95c",
+      "lines": 307,
+      "bytes": 13313,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/TTResponseUniqueness.lean": {
+      "sha256": "cfbd7bd94bf8e858b5ec02e7d2e513ddc1e8f224b8a506976f3698e4ba65f268",
+      "lines": 216,
+      "bytes": 8883,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/TetrahedralFisherCone.lean": {
+      "sha256": "710b4a9fa5a55baf9ce06b6397893abb46900f210809fe7619fa414179c445d3",
+      "lines": 160,
+      "bytes": 6600,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/TetrahedralInformationFrame.lean": {
+      "sha256": "037c968479d6a95e37f854cc9685ba6d9ca7ccfe2ae3a4ad6fcfcd05d9a9cfe4",
+      "lines": 109,
+      "bytes": 4781,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/ThreeDPackingWitness.lean": {
+      "sha256": "12f0a57f881ed6251ff4bb34432204484cf2ac199e517fae13adbcb2a645db30",
+      "lines": 56,
+      "bytes": 1884,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/TimeDilation.lean": {
+      "sha256": "728944b86b22def30a1c0f680dd6ecd0b33b5e90d131778b5dd4e69163d13d5c",
+      "lines": 85,
+      "bytes": 3291,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/TraceFreeResponseUniqueness.lean": {
+      "sha256": "68c9af13925b3bfc8c4a454d3a808bd3bd2c95266247dd1d6ee4c3d2476e6142",
+      "lines": 204,
+      "bytes": 8956,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/TransverseTracelessCount.lean": {
+      "sha256": "d11e0e2f24d0fdb3082536ebdf4fb7055d24f0ac137aa87f97065210e6ba63ab",
+      "lines": 160,
+      "bytes": 4982,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/UnifiedCouplingGrammar.lean": {
+      "sha256": "4cc6b459c5c0259c8f609bfc413ebe705df8b1043e5a766e767f115bddb04ffc",
+      "lines": 109,
+      "bytes": 4662,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "GravityScreening/UnorientedClockGravity.lean": {
+      "sha256": "aff22fdcf76ebf1b0c2e7549fee26f1abd025ebc3df1cdd1ac1a974995b5ece6",
+      "lines": 142,
+      "bytes": 6433,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "HessianCovariance.lean": {
+      "sha256": "2c2277f30c598e764f3f975c2953d7a43b0dc75c45c23c2a38ea47197a751c02",
+      "lines": 103,
+      "bytes": 3936,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "HodgeConnection.lean": {
+      "sha256": "aef7fb65ccef87d10bf8a7801ee31f8b4b3385b7fb527c626b8b0d160a77a9d8",
+      "lines": 144,
+      "bytes": 6646,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "HodgeReference.lean": {
+      "sha256": "3a91b49cca80b06657bc4fd0b269b690df9c2dd9f4cfa6b54abe4f8d19700137",
+      "lines": 88,
+      "bytes": 3289,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "IntegrabilityCertificate.lean": {
+      "sha256": "f1642fd1b682fd4db79936bdf3116e5d05e416114a44fa2fabe5fe98b4d5affa",
+      "lines": 380,
+      "bytes": 12062,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "JointStabilizer.lean": {
+      "sha256": "1c479bd8041fd5e7d5a2dd6f6710f7f16e739472eaf8727b5596c73399687f05",
+      "lines": 138,
+      "bytes": 5407,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "LinearSourceBridge.lean": {
+      "sha256": "4090bfcae77453f3a93278153b984e6e5ea5c898594b97639f5c332251afe862",
+      "lines": 510,
+      "bytes": 19649,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "LinearSourceData.lean": {
+      "sha256": "12677e60c84b824479f144d1df406c076cc61ff1723b7eba99b6c3b01f21e127",
+      "lines": 26,
+      "bytes": 2417,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "LinearSourceRecovery.lean": {
+      "sha256": "514132d92201f6120cea279b194946f729301dd48d9a311ac3ddb81766c8d00c",
+      "lines": 198,
+      "bytes": 9085,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "LorentzFrame.lean": {
+      "sha256": "1fe894a61ab592d65e16223b5b513a56ffb3050a69924290d5a8ab4913ad3cba",
+      "lines": 74,
+      "bytes": 2639,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "LowerCovariance.lean": {
+      "sha256": "a15d1ed7044ca114506215fd61f1299abe253f3f90d6ce2f4a439a1c4d0d0bda",
+      "lines": 225,
+      "bytes": 9064,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "MaxwellHodge.lean": {
+      "sha256": "f66f883208cb7c6b7c3d6e0aea5794b970fad82f4e8c84ed9d67165fd13946b1",
+      "lines": 100,
+      "bytes": 3848,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "MaxwellResponse.lean": {
+      "sha256": "f207781fff93be8bdd7bfbe6bcc0a0c6ad792374e1f745b95b769a692ca1e57d",
+      "lines": 98,
+      "bytes": 4482,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "MaxwellSymbol.lean": {
+      "sha256": "f45081bc6de3bf0b4885f3efb817241fa749bc91caafd6c509200e1ba5265b6c",
+      "lines": 145,
+      "bytes": 4919,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "MovingConnection.lean": {
+      "sha256": "bb427fc20dc9974fdc079dcc2c4edd84af49d614f73c3df25915eb4022ae316f",
+      "lines": 74,
+      "bytes": 3086,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "PfaffianBridge.lean": {
+      "sha256": "e9f228021007e56de9e16f7602dc7a92f4c4d31cdea48c7b042f8a571a79bcc4",
+      "lines": 74,
+      "bytes": 2431,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "PfaffianCubic.lean": {
+      "sha256": "37ac8e202bb9b2f73a86009a3d14f5b2b41f777820dfdd8d30d4f2f8f75ad7be",
+      "lines": 151,
+      "bytes": 5288,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "PolynomialConsequences.lean": {
+      "sha256": "c05be92221546f6e9c182fc4341fdd6cccca55822851dbf3c163755afa77daa5",
+      "lines": 133,
+      "bytes": 5328,
+      "warnings": 1,
+      "intentional_challenge_holes": 0
+    },
+    "PolynomialSelection.lean": {
+      "sha256": "be444cfd54878e2247de0232ea452b77b98865acf3c5712b9bc524ee203bf9cd",
+      "lines": 124,
+      "bytes": 5548,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "PolynomialSource.lean": {
+      "sha256": "9b53baf73a42be791c5872f47bd76e6023748c342ef598d865d21adf6c332ecc",
+      "lines": 157,
+      "bytes": 6173,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "PolynomialUniqueness.lean": {
+      "sha256": "0bab403a30fceee8cbb6b63dcfad374b4d376dfbbe80d248372996b583285e89",
+      "lines": 143,
+      "bytes": 5698,
+      "warnings": 1,
+      "intentional_challenge_holes": 0
+    },
+    "QuadraticSource.lean": {
+      "sha256": "afb9441eaf07f03b160ad1354e8c3ecaf22557111152df27fd6459404eaae07b",
+      "lines": 123,
+      "bytes": 4961,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "ReferenceCentralizer.lean": {
+      "sha256": "af117e9cce0852e4d755017b1cf59b7ba7cd3187ea1b0bb52280c96f3da802ab",
+      "lines": 87,
+      "bytes": 3514,
+      "warnings": 2,
+      "intentional_challenge_holes": 0
+    },
+    "ResponseBridge.lean": {
+      "sha256": "3c1d5311bb772d04aa5605d41f24054c6a214adac9ed1c5a7ab4cc9eb7cc9eef",
+      "lines": 169,
+      "bytes": 6965,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "ResponseClosureCertificate.lean": {
+      "sha256": "4b4bee8cde38c189d8dcd90da366604369d69c893ed17986240618fd7416bb3e",
+      "lines": 259,
+      "bytes": 27099,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "ResponseClosureGeometry.lean": {
+      "sha256": "03ff04d40ac45a414a2fcd8a0c9df4f355c1dcc02f16bee31a8f7a737f3d150d",
+      "lines": 146,
+      "bytes": 6083,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "ResponseClosureOrthogonalBasis.lean": {
+      "sha256": "f5ae02e3b0984c11768090d78a14b3f8d318d3d79a849d7205058a824505a20f",
+      "lines": 248,
+      "bytes": 9885,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "ScopeAudit.lean": {
+      "sha256": "c91d78d4730f15a7e6584677a7cce9d9d5db1b96b0766601a82427571fbb97f2",
+      "lines": 42,
+      "bytes": 1335,
+      "warnings": 2,
+      "intentional_challenge_holes": 0
+    },
+    "SignedTransport.lean": {
+      "sha256": "0a2f00665714b86916e28eb9751e6353aa7c4cee0e8bbf05209050168bd81ddf",
+      "lines": 136,
+      "bytes": 5317,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "SmoothCalculus.lean": {
+      "sha256": "9e3731a13df800c354b902cd8476ce005ea31c4fae544c2b0b7df101bfcfadff",
+      "lines": 105,
+      "bytes": 3927,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "SmoothConsequences.lean": {
+      "sha256": "323985be2f86f90f7e6ace6931f4d8560f4dcf3888e17afcfccff0555bfb48a5",
+      "lines": 84,
+      "bytes": 3552,
+      "warnings": 2,
+      "intentional_challenge_holes": 0
+    },
+    "SmoothFamily.lean": {
+      "sha256": "57b01ef13d1526f87e3c5871becb716657d9695fa9d7668692689e39e5d290bd",
+      "lines": 87,
+      "bytes": 3653,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "SmoothGradient.lean": {
+      "sha256": "370bb7367345fea5af6db57f1b30b90f54e578b7f40a1ab1091ed71f60182ac8",
+      "lines": 57,
+      "bytes": 2072,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "SmoothIntegrability.lean": {
+      "sha256": "5b5823d253c2c68994c910754185b11e970c3b6f7315a91a1662263786070e18",
+      "lines": 184,
+      "bytes": 6484,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "SmoothSelection.lean": {
+      "sha256": "60c0f0f639464db32b07db573ceba62b38cbf73590dbc93ce3f60696878e2dca",
+      "lines": 127,
+      "bytes": 5431,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "Solution.lean": {
+      "sha256": "20c85ce671c3c9286bbd063cb24d4739c4ca009c7c093481a345361e06285629",
+      "lines": 96,
+      "bytes": 4585,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "SourceActionFormulas.lean": {
+      "sha256": "6e9f56abdc3e9b9da17d3567367a140d9a6cb3879c17d4ec28f1bfc9cb7ce63e",
+      "lines": 51,
+      "bytes": 1931,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "SourceActionKernel.lean": {
+      "sha256": "481bb744ba45b12e6185c0c37fd83f9458263a5c26166e3789df6a3a7b33023e",
+      "lines": 144,
+      "bytes": 5814,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "SourceCoefficientBridge.lean": {
+      "sha256": "c82b19edea3920b67b020b60742750050b5443a4f094864402ad394f9083856a",
+      "lines": 2855,
+      "bytes": 198030,
+      "warnings": 216,
+      "intentional_challenge_holes": 0
+    },
+    "SourceCoefficientData.lean": {
+      "sha256": "9167b4990b967ec808236ebd55529c755cadafe2dec90a0f5fc8e3340a86884d",
+      "lines": 239,
+      "bytes": 8158,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "SourceCoefficientRecovery.lean": {
+      "sha256": "99d7b999757ff9aad503ae8fe0f8db6745eb7f1ff0317b5af46d96e749d997b5",
+      "lines": 651,
+      "bytes": 43727,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "SourceControls.lean": {
+      "sha256": "9a7348e89b873449b3a440c6319669d7da779e2b596848363d0fe2168440f03f",
+      "lines": 99,
+      "bytes": 4204,
+      "warnings": 12,
+      "intentional_challenge_holes": 0
+    },
+    "SourceKernelConsequences.lean": {
+      "sha256": "e83d265c4b084d3090ef5053f0a7169c30a1734cee2581380ba00731db0748d5",
+      "lines": 202,
+      "bytes": 7039,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "SourceMaxwell.lean": {
+      "sha256": "75876d45125e5f015eca4786665495070da2c540b0e56d2073b905a38b5b683f",
+      "lines": 76,
+      "bytes": 2906,
+      "warnings": 2,
+      "intentional_challenge_holes": 0
+    },
+    "SourceSelection.lean": {
+      "sha256": "918d6c7963f788fbfc91c1e15efc6caa8eef27acf2746bd42294ed78a0476b5c",
+      "lines": 72,
+      "bytes": 2699,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "SourcefulControls.lean": {
+      "sha256": "41cc051bc78ec2f6d5126354d5502249277df6116e36967741a5464815b25097",
+      "lines": 101,
+      "bytes": 4072,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "SourcefulLaw.lean": {
+      "sha256": "87e3d24ba7b8f12c970f9d1497502c3b202d7262a684eb0f45aec1edda7403c0",
+      "lines": 88,
+      "bytes": 3701,
+      "warnings": 4,
+      "intentional_challenge_holes": 0
+    },
+    "SourcefulSelection.lean": {
+      "sha256": "ab43650df18f9aa0909939bab04649d2201e088b22f1374039e834e25dc12b5f",
+      "lines": 143,
+      "bytes": 6087,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "StabilizerControls.lean": {
+      "sha256": "e065f79f38bb703309de2a97ecb16313ccf022cd8d57f8393eb24ef02ffbee61",
+      "lines": 66,
+      "bytes": 2371,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "StabilizerRecovery.lean": {
+      "sha256": "9cf929140eb4f5e9ca34a444a770ad9904dc1b2a92f70fa50f815d5dc59f2c46",
+      "lines": 3802,
+      "bytes": 142889,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "StabilizerTests.lean": {
+      "sha256": "24f991a52b550c70c30f2f044f8af4bb4869b746380263c5f85a2536dc3ba332",
+      "lines": 1934,
+      "bytes": 74332,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "StatementBridge.lean": {
+      "sha256": "29eff9dccbfdc855d83bed465371a25d96cf3bcc5ad7fef58f3941a055283e1c",
+      "lines": 476,
+      "bytes": 20617,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "StressBalance.lean": {
+      "sha256": "e10893a2367f5ef8354faf1fca865c3a23fd80180e89a0d89d1896703c07dcbe",
+      "lines": 95,
+      "bytes": 4011,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "StressTensor.lean": {
+      "sha256": "3f58fa4d1915fc1a627b2e2b16f06850014d6767a32b7d6be89ebf23896dbaa2",
+      "lines": 142,
+      "bytes": 5454,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    },
+    "UnrestrictedSourceKernel.lean": {
+      "sha256": "ecba9da1ff8d3b3e432caf4f81050a42e82db8f6c22a128e0151c84e4a391b97",
+      "lines": 225,
+      "bytes": 7507,
+      "warnings": 0,
+      "intentional_challenge_holes": 0
+    }
+  },
+  "solution_holes": 0,
+  "intentional_challenge_holes": 12,
+  "selected_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "statement_comparison": "comparator.json, Solution.lean and Challenge.lean name the same twelve declarations in the same order; axioms recorded by #print axioms on a direct recompile of Solution.lean, 7 October 2026",
+  "kernel_checks": {
+    "lean_kernel": "pass (lake build Challenge StatementBridge Solution, exit 0, zero errors)",
+    "leanchecker": "not run locally",
+    "NanoDa": "not run locally",
+    "con-ron": "not run locally"
+  },
+  "lean_toolchain": "leanprover/lean4:v4.35.0-rc2",
+  "dependency_pins": {
+    "mathlib": "065356127b1dc0016f66b7283ce0ce2c4055aa55",
+    "plausible": "e50948299c4dc4a4c21b1c34b6a6a4fddc19f912",
+    "LeanSearchClient": "95e037bfdc31d3916ac615446847fb01960e2719",
+    "importGraph": "10930f8138f0462dbd744a91fc03a16fae0e046f",
+    "proofwidgets": "4c70ac059693669e5756e32a7a94b57ee1e99dc5",
+    "aesop": "75d936c7af167cc93fac0d31237682fc2204591d",
+    "Qq": "786b7acdca7eb4e9c76c5d1d5bd810e7e5c56334",
+    "batteries": "ed9b316aabe389fec1ef43c3326ab48c7e59be42",
+    "Cli": "2842b9871b04862f944c032e34052cb9448ccb71"
+  },
+  "pipeline_tools_commit": "65f0154ed776cd26c224254aa57b379137f28b0d",
+  "full_lake_build": "every root library built as a target against the pinned dependency cache (6-7 October 2026, exit 0); the 80 GravityScreening modules all lie in those closures",
+  "inherited_deprecation_warnings": {
+    "GravityScreening/SignedLieGeneration.lean": 1,
+    "GravityScreening/HodgeResponseCovariance.lean": 3,
+    "GravityScreening/ConformalResponseAlgebra.lean": 2,
+    "GravityScreening/ClockHodgeBridge.lean": 2,
+    "GravityScreening/ElectricSourceFrame.lean": 4,
+    "GravityScreening/DoubledTTGaussian.lean": 1,
+    "GravityScreening/HodgeGaussianUniqueness.lean": 1,
+    "FinitePfaffian.lean": 16,
+    "ScopeAudit.lean": 2,
+    "FixedHodgeSymmetry.lean": 2,
+    "FixedHodgeSource.lean": 4,
+    "ReferenceCentralizer.lean": 2,
+    "SourceCoefficientBridge.lean": 216,
+    "SourceMaxwell.lean": 2,
+    "SourceControls.lean": 12,
+    "ConservationJets.lean": 8,
+    "ConservationControls.lean": 8,
+    "CrossSource.lean": 2,
+    "PolynomialUniqueness.lean": 1,
+    "PolynomialConsequences.lean": 1,
+    "SmoothConsequences.lean": 2,
+    "SourcefulLaw.lean": 4
+  },
+  "ai_review": {
+    "review_kind": "Five AI-agent reviews on 7 October 2026 (statement fidelity, definitions audit with kernel-checked tests, blind re-derivation, calibration, second literature pass); no human peer review or novelty/acceptance guarantee",
+    "verdict": "No fatal or serious mathematical defect; prose and provenance corrections applied; smoothClassification strengthened to an equivalence",
+    "reports": "reviews/ in the canon staging copy (palomar/em_source_selection/reviews), not shipped in this repository"
+  }
+}

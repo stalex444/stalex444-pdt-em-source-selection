@@ -44,7 +44,7 @@ theorem metric_invariant_formula (x : Local) :
   ext i j
   fin_cases i <;> fin_cases j <;>
     norm_num [source,poly,metricInvariantCoefficients,monomialPair,tensorIndex,
-      metric,Matrix.diagonal,eta,Fin.sum_univ_succ] <;> (try dsimp) <;> ring
+      metric,Matrix.diagonal,eta,Fin.sum_univ_succ] <;> ring
 
 theorem metric_invariant_covariant : Covariant (source metricInvariantCoefficients) := by
   apply (covariance_iff _).mpr
@@ -53,22 +53,19 @@ theorem metric_invariant_covariant : Covariant (source metricInvariantCoefficien
   fin_cases k <;> fin_cases i <;> fin_cases j <;>
     norm_num [variation,dpoly,source,poly,metricInvariantCoefficients,monomialPair,tensorIndex,
       field_action_formula,tensorAction,lorentz_formula,lorentzTable,Matrix.mul_apply,
-      Matrix.transpose_apply,Fin.sum_univ_succ] <;> (try dsimp) <;> ring
+      Matrix.transpose_apply,Fin.sum_univ_succ] <;> ring
 
 theorem metric_invariant_not_trace_free : ¬ TraceFree (source metricInvariantCoefficients) := by
   intro h
   have hh := h ![1,0,0,0,0,0]
   rw [metric_invariant_formula] at hh
   norm_num [metric,Matrix.diagonal,eta] at hh
-  all_goals dsimp at hh
-  all_goals norm_num at hh
 
 theorem anisotropic_trace_free : TraceFree (source anisotropicCoefficients) := by
   intro x
   norm_num [source,poly,anisotropicCoefficients,monomialPair,tensorIndex,
     Fin.sum_univ_succ]
   try dsimp
-  all_goals ring1
 
 theorem anisotropic_not_covariant : ¬ Covariant (source anisotropicCoefficients) := by
   intro h
@@ -77,8 +74,6 @@ theorem anisotropic_not_covariant : ¬ Covariant (source anisotropicCoefficients
   norm_num [variation,dpoly,source,poly,anisotropicCoefficients,monomialPair,tensorIndex,
     field_action_formula,tensorAction,lorentz_formula,lorentzTable,Matrix.mul_apply,
     Matrix.transpose_apply,Fin.sum_univ_succ] at hh
-  all_goals dsimp at hh
-  all_goals norm_num at hh
 
 /-- Each of the two geometric requirements excludes an explicit alternative. -/
 theorem both_conditions_necessary :

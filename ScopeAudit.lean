@@ -19,7 +19,7 @@ theorem extra_reference : extra *ᵥ Pi.single 14 1= -(Pi.single 14 1 : I → �
   congr 1
   ext p
   fin_cases p <;>
-    norm_num [wedge,reflection,ia,ib,Matrix.diagonal_apply,Pi.single_apply] <;> simp +decide
+    norm_num [wedge,reflection,ia,ib,Matrix.diagonal_apply,Pi.single_apply]
 
 theorem extra_not_reference_preserving :
     extra *ᵥ Pi.single 14 1 ≠ (Pi.single 14 1 : I → ℝ) := by

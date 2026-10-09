@@ -20,14 +20,14 @@ theorem action_diagonal : action=Matrix.diagonal
   rw [action,signedLift,complement_det,neg_one_smul]
   ext r c
   fin_cases r <;> fin_cases c <;>
-    norm_num [lift,complementReflection,ia,ib,Matrix.diagonal_apply] <;> simp +decide
+    norm_num [lift,complementReflection,ia,ib,Matrix.diagonal_apply]
 
 /-- The actual six electromagnetic components all change sign. -/
 theorem field_action (v : V) : field (action *ᵥ v)= -field v := by
   rw [action_diagonal]
   ext i j
   fin_cases i <;> fin_cases j <;>
-    norm_num [field,Matrix.mulVec_diagonal] <;> simp +decide
+    norm_num [field,Matrix.mulVec_diagonal]
 
 theorem stress_neg (d : ℝ) (F : Tensor) : stress d (-F)=stress d F := by
   ext i j

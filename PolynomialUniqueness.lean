@@ -57,7 +57,6 @@ theorem conserved_family_00 (A : ConstantCoeff) (b : Local) (d : ℝ) (x : Local
   norm_num [conservedFamily,constant,linear,crossCoefficients,tensorIndex,Fin.sum_univ_succ,
     registerStress,stress,field,embed,PDTMaxwellSymbol.mink,metric,eta,Matrix.diagonal_apply,invariant]
   try dsimp
-  norm_num
   ring
 
 set_option linter.unusedTactic false in

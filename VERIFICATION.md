@@ -40,13 +40,16 @@ declarations in the same order.
   (symmetries and conservation laws in field theory), `78A25` (electromagnetic theory, general) and `68V20`
   (formalization of mathematics). These describe the selected mathematics and its form.
 - Compiler warnings: the full build log of the three package targets (`lake build Challenge StatementBridge Solution`,
-  7 October 2026) carries 308 warnings in 23 files, recorded per file in `local-checks.json`: 250 unused-tactic linter
-  reports (tactic steps that no longer act on this toolchain, including the `try` guards added in the port), 29
-  never-executed tactic reports, 10 style suggestions, 7 Mathlib deprecations in inherited `GravityScreening` modules,
-  and the 12 `sorry` placeholders of `Challenge.lean`. None is an error; the Palomar verifier (`verify_submission.py`,
-  pipeline commit `65f0154e`) does not parse compiler warnings, and ten research modules already disable individual
-  linters at their original authors' hand. The warnings are left as they are rather than edited into proofs that the
-  review did not re-examine.
+  9 October 2026, exit 0, zero errors) carries 26 warnings, recorded per file in `local-checks.json`: the 12 `sorry`
+  placeholders of `Challenge.lean`, and 14 in seven inherited `GravityScreening` modules that are left untouched so
+  they stay identical to the registered `pdt-hodge-lie-generation` package apart from the module header (7 Mathlib
+  deprecations, 6 `tac1 <;> tac2` style suggestions, 1 unused-tactic report). Every other module compiles without a
+  warning. The first build of this package carried 308 warnings in 23 files (250 unused-tactic reports, 29
+  never-executed reports, 10 style suggestions, 7 deprecations, 12 `sorry`); the 15 research modules that held the
+  unused-tactic and never-executed reports (216 of them in `SourceCoefficientBridge`) and the style suggestions in
+  `FinitePfaffian` were cleaned by deleting the no-op tactic steps, without touching a statement or a definition and
+  without disabling a linter (see `PROVENANCE.md`). The Palomar verifier (`verify_submission.py`, pipeline commit
+  `65f0154e`) does not parse compiler warnings.
 
 ## Reviews run on the package (7 October 2026)
 

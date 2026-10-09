@@ -88,10 +88,10 @@
       "intentional_challenge_holes": 0
     },
     "ConservationControls.lean": {
-      "sha256": "1e27bf16ea951149657affe931b64ac5f6f1fd7d5e383830094d7904b1fb3cbe",
-      "lines": 75,
-      "bytes": 2495,
-      "warnings": 8,
+      "sha256": "0f222746f1cc69fda05c81fe2a6da983b96b3de79504887acdba2b5afe7b91ff",
+      "lines": 71,
+      "bytes": 2393,
+      "warnings": 0,
       "intentional_challenge_holes": 0
     },
     "ConservationData.lean": {
@@ -102,10 +102,10 @@
       "intentional_challenge_holes": 0
     },
     "ConservationJets.lean": {
-      "sha256": "f375bf949b52683eb2493629d727be8f44afc7635d70a28839fe5791de1dba7d",
-      "lines": 45,
-      "bytes": 1755,
-      "warnings": 8,
+      "sha256": "02d7765b10216137f5ed5d35b27ba64c0b1489270e55d3d55f7911e159eac6a2",
+      "lines": 44,
+      "bytes": 1697,
+      "warnings": 0,
       "intentional_challenge_holes": 0
     },
     "ConservationLaws.lean": {
@@ -137,10 +137,10 @@
       "intentional_challenge_holes": 0
     },
     "CrossSource.lean": {
-      "sha256": "032356ebd55aaa23589f37f632ecb0f7c308b6d18198c6c14a0f644e093a7841",
+      "sha256": "75dade3f27e71f5cfdbbcae1ebf98792ca93c085b9a1e80b87cd2e27229ba280",
       "lines": 57,
-      "bytes": 2156,
-      "warnings": 2,
+      "bytes": 2127,
+      "warnings": 0,
       "intentional_challenge_holes": 0
     },
     "CubicInvariance.lean": {
@@ -228,24 +228,24 @@
       "intentional_challenge_holes": 0
     },
     "FinitePfaffian.lean": {
-      "sha256": "810c9cacc88d8ea9150cc2e3f96805e9788ced3fb41eabb1e8a6ca898aae3562",
-      "lines": 576,
-      "bytes": 26034,
-      "warnings": 16,
+      "sha256": "44e3a4aa0a87f6aa9be099adccaa37aa995555eaebe3baf5d313a90b903c9acb",
+      "lines": 580,
+      "bytes": 25966,
+      "warnings": 0,
       "intentional_challenge_holes": 0
     },
     "FixedHodgeSource.lean": {
-      "sha256": "f52c4a37a64e4fff1a9b1139b186dfdc09b2479142a4a37e69a4edd79cf2a940",
+      "sha256": "3ababe31748aef0a9e6cb86d5eaaf8188badc15a285b287fae0e46668ae39aa8",
       "lines": 71,
-      "bytes": 2609,
-      "warnings": 4,
+      "bytes": 2575,
+      "warnings": 0,
       "intentional_challenge_holes": 0
     },
     "FixedHodgeSymmetry.lean": {
-      "sha256": "b70ec5c2b97cad0d2f68a2c9d85789ee6e5e3130dc1692c6484357fa6b896bc8",
-      "lines": 83,
-      "bytes": 3274,
-      "warnings": 2,
+      "sha256": "b64a67b76d2bda9dde1e35062d63018bbbbd894e4a1c1b5de26b62d883984c0c",
+      "lines": 82,
+      "bytes": 3253,
+      "warnings": 0,
       "intentional_challenge_holes": 0
     },
     "GeometricTransport.lean": {
@@ -928,10 +928,10 @@
       "intentional_challenge_holes": 0
     },
     "PolynomialConsequences.lean": {
-      "sha256": "c05be92221546f6e9c182fc4341fdd6cccca55822851dbf3c163755afa77daa5",
-      "lines": 133,
-      "bytes": 5328,
-      "warnings": 1,
+      "sha256": "12a0d9ba94eebc3d57f9a27bdec8088f7c108ca2bfa0dac303855b691a512ea0",
+      "lines": 132,
+      "bytes": 5317,
+      "warnings": 0,
       "intentional_challenge_holes": 0
     },
     "PolynomialSelection.lean": {
@@ -949,10 +949,10 @@
       "intentional_challenge_holes": 0
     },
     "PolynomialUniqueness.lean": {
-      "sha256": "0bab403a30fceee8cbb6b63dcfad374b4d376dfbbe80d248372996b583285e89",
-      "lines": 143,
-      "bytes": 5698,
-      "warnings": 1,
+      "sha256": "531fe197915d875f18c9a74c8ff12fab24e71680127a854095aa0431627677d7",
+      "lines": 142,
+      "bytes": 5687,
+      "warnings": 0,
       "intentional_challenge_holes": 0
     },
     "QuadraticSource.lean": {
@@ -963,10 +963,10 @@
       "intentional_challenge_holes": 0
     },
     "ReferenceCentralizer.lean": {
-      "sha256": "af117e9cce0852e4d755017b1cf59b7ba7cd3187ea1b0bb52280c96f3da802ab",
+      "sha256": "f301649d9d4596e80590c3cee2f259314f1edf96bda3d75cb26f8869c824ac07",
       "lines": 87,
-      "bytes": 3514,
-      "warnings": 2,
+      "bytes": 3497,
+      "warnings": 0,
       "intentional_challenge_holes": 0
     },
     "ResponseBridge.lean": {
@@ -998,10 +998,10 @@
       "intentional_challenge_holes": 0
     },
     "ScopeAudit.lean": {
-      "sha256": "c91d78d4730f15a7e6584677a7cce9d9d5db1b96b0766601a82427571fbb97f2",
+      "sha256": "86c30c82c022f5a1c6c64af94d540675dd79ccd64ba75d5670af3d5600047f26",
       "lines": 42,
-      "bytes": 1335,
-      "warnings": 2,
+      "bytes": 1318,
+      "warnings": 0,
       "intentional_challenge_holes": 0
     },
     "SignedTransport.lean": {
@@ -1019,10 +1019,10 @@
       "intentional_challenge_holes": 0
     },
     "SmoothConsequences.lean": {
-      "sha256": "323985be2f86f90f7e6ace6931f4d8560f4dcf3888e17afcfccff0555bfb48a5",
-      "lines": 84,
-      "bytes": 3552,
-      "warnings": 2,
+      "sha256": "9b9fe59f2b25ce2e5af2ad8829400d2660c09d21a071cf85074828e1e1545f34",
+      "lines": 83,
+      "bytes": 3525,
+      "warnings": 0,
       "intentional_challenge_holes": 0
     },
     "SmoothFamily.lean": {
@@ -1075,10 +1075,10 @@
       "intentional_challenge_holes": 0
     },
     "SourceCoefficientBridge.lean": {
-      "sha256": "c82b19edea3920b67b020b60742750050b5443a4f094864402ad394f9083856a",
-      "lines": 2855,
-      "bytes": 198030,
-      "warnings": 216,
+      "sha256": "75ef7dc0075ddce5091a74f11e968697f86a8dbff8f90456144cf6bc6ab76e68",
+      "lines": 2639,
+      "bytes": 193620,
+      "warnings": 0,
       "intentional_challenge_holes": 0
     },
     "SourceCoefficientData.lean": {
@@ -1096,10 +1096,10 @@
       "intentional_challenge_holes": 0
     },
     "SourceControls.lean": {
-      "sha256": "9a7348e89b873449b3a440c6319669d7da779e2b596848363d0fe2168440f03f",
-      "lines": 99,
-      "bytes": 4204,
-      "warnings": 12,
+      "sha256": "16357f49594a961365192e4745199f89f66434aefc0e31c787642ed95235ae41",
+      "lines": 94,
+      "bytes": 4052,
+      "warnings": 0,
       "intentional_challenge_holes": 0
     },
     "SourceKernelConsequences.lean": {
@@ -1110,10 +1110,10 @@
       "intentional_challenge_holes": 0
     },
     "SourceMaxwell.lean": {
-      "sha256": "75876d45125e5f015eca4786665495070da2c540b0e56d2073b905a38b5b683f",
+      "sha256": "9a82c056451973af73a5f047f41116eae75d4ccf911619850e40605c7c95b457",
       "lines": 76,
-      "bytes": 2906,
-      "warnings": 2,
+      "bytes": 2874,
+      "warnings": 0,
       "intentional_challenge_holes": 0
     },
     "SourceSelection.lean": {
@@ -1131,10 +1131,10 @@
       "intentional_challenge_holes": 0
     },
     "SourcefulLaw.lean": {
-      "sha256": "87e3d24ba7b8f12c970f9d1497502c3b202d7262a684eb0f45aec1edda7403c0",
+      "sha256": "0e2807bd4170be9abd1d35384d5544d29cfda9d61ef47cf22014a7ba8ea66b40",
       "lines": 88,
-      "bytes": 3701,
-      "warnings": 4,
+      "bytes": 3643,
+      "warnings": 0,
       "intentional_challenge_holes": 0
     },
     "SourcefulSelection.lean": {
@@ -1222,33 +1222,43 @@
   },
   "pipeline_tools_commit": "65f0154ed776cd26c224254aa57b379137f28b0d",
   "full_lake_build": "every root library built as a target against the pinned dependency cache (6-7 October 2026, exit 0); the 80 GravityScreening modules all lie in those closures",
-  "inherited_deprecation_warnings": {
+  "ai_review": {
+    "review_kind": "Five AI-agent reviews on 7 October 2026 (statement fidelity, definitions audit with kernel-checked tests, blind re-derivation, calibration, second literature pass); no human peer review or novelty/acceptance guarantee",
+    "verdict": "No fatal or serious mathematical defect; prose and provenance corrections applied; smoothClassification strengthened to an equivalence",
+    "reports": "reviews/ in the canon staging copy (palomar/em_source_selection/reviews), not shipped in this repository"
+  },
+  "inherited_gravityscreening_warnings": {
     "GravityScreening/SignedLieGeneration.lean": 1,
     "GravityScreening/HodgeResponseCovariance.lean": 3,
     "GravityScreening/ConformalResponseAlgebra.lean": 2,
     "GravityScreening/ClockHodgeBridge.lean": 2,
     "GravityScreening/ElectricSourceFrame.lean": 4,
     "GravityScreening/DoubledTTGaussian.lean": 1,
-    "GravityScreening/HodgeGaussianUniqueness.lean": 1,
-    "FinitePfaffian.lean": 16,
-    "ScopeAudit.lean": 2,
-    "FixedHodgeSymmetry.lean": 2,
-    "FixedHodgeSource.lean": 4,
-    "ReferenceCentralizer.lean": 2,
-    "SourceCoefficientBridge.lean": 216,
-    "SourceMaxwell.lean": 2,
-    "SourceControls.lean": 12,
-    "ConservationJets.lean": 8,
-    "ConservationControls.lean": 8,
-    "CrossSource.lean": 2,
-    "PolynomialUniqueness.lean": 1,
-    "PolynomialConsequences.lean": 1,
-    "SmoothConsequences.lean": 2,
-    "SourcefulLaw.lean": 4
+    "GravityScreening/HodgeGaussianUniqueness.lean": 1
   },
-  "ai_review": {
-    "review_kind": "Five AI-agent reviews on 7 October 2026 (statement fidelity, definitions audit with kernel-checked tests, blind re-derivation, calibration, second literature pass); no human peer review or novelty/acceptance guarantee",
-    "verdict": "No fatal or serious mathematical defect; prose and provenance corrections applied; smoothClassification strengthened to an equivalence",
-    "reports": "reviews/ in the canon staging copy (palomar/em_source_selection/reviews), not shipped in this repository"
+  "inherited_gravityscreening_warnings_note": "14 warnings in 7 inherited GravityScreening modules, left untouched so that they stay identical to the registered pdt-hodge-lie-generation package apart from the module header: 7 Mathlib deprecations, 6 'tac1 <;> tac2 where (tac1; tac2) would suffice' suggestions (ClockHodgeBridge 2, ElectricSourceFrame 4) and 1 unused-tactic report (HodgeGaussianUniqueness)",
+  "warning_cleanup": {
+    "utc": "2026-10-09T16:03:33.873569+00:00",
+    "before": 308,
+    "after": 26,
+    "after_breakdown": "12 intentional sorry placeholders in Challenge.lean + 14 in inherited GravityScreening modules; 0 in every other module",
+    "full_log": "lake build Challenge StatementBridge Solution, exit 0, zero errors",
+    "modules_edited": [
+      "ConservationControls.lean",
+      "ConservationJets.lean",
+      "CrossSource.lean",
+      "FinitePfaffian.lean",
+      "FixedHodgeSource.lean",
+      "FixedHodgeSymmetry.lean",
+      "PolynomialConsequences.lean",
+      "PolynomialUniqueness.lean",
+      "ReferenceCentralizer.lean",
+      "ScopeAudit.lean",
+      "SmoothConsequences.lean",
+      "SourceCoefficientBridge.lean",
+      "SourceControls.lean",
+      "SourceMaxwell.lean",
+      "SourcefulLaw.lean"
+    ]
   }
 }

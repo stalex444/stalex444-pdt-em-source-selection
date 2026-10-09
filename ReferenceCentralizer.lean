@@ -45,7 +45,7 @@ theorem reference_action (w : I → ℝ) : connection ℝ w *ᵥ reference=
     rw [column_certificate]
   ext i
   simp only [Matrix.col_apply,connection,Matrix.sum_apply,Matrix.smul_apply,smul_eq_mul,he]
-  fin_cases i <;> norm_num [lastColumn,Fin.sum_univ_succ] <;> simp +decide
+  fin_cases i <;> norm_num [lastColumn,Fin.sum_univ_succ]
 
 theorem annihilates_iff_no_mixing (w : I → ℝ) :
     connection ℝ w *ᵥ reference=0 ↔ NoMixing w := by

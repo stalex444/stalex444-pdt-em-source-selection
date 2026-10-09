@@ -42,6 +42,19 @@ originals (ignoring those header lines) shows 19 of the 81 research modules chan
   `SourcefulSelection`.
 - Tactic steps that no longer act removed outright: the trailing `<;> rfl` on every action lemma of `CubicInvariance`,
   twelve `rfl` lines in `StabilizerRecovery`, and `simp +decide only [ite_false]` before `ring!` in `FinitePfaffian`.
+- Warning cleanup (9 October 2026; compiler warnings 308 before, 26 after, the 26 being the 12 `sorry` placeholders of
+  `Challenge.lean` and 14 in inherited `GravityScreening` modules left untouched). Only tactic steps that the linter
+  reported as doing nothing were deleted; no statement, definition or linter option was touched, and `Challenge.lean`,
+  `StatementBridge.lean`, `Solution.lean` and the `GravityScreening` modules are unchanged. By module:
+  `SourceCoefficientBridge` (the 216 `norm_num at h` and `norm_num at h ha hb` steps that follow the `simp only` and
+  `norm_num [...]` rewrites); `FinitePfaffian` (the trailing `<;> ring!` of six lemmas, where the preceding `norm_num`
+  closes every goal, and the `<;> ring!` of four lemmas turned into a separate `ring!` line); `ScopeAudit`,
+  `FixedHodgeSource`, `FixedHodgeSymmetry`, `ReferenceCentralizer` (the trailing `simp +decide`); `SourceMaxwell`,
+  `SourceControls`, `CrossSource` (the `(try dsimp)` guard, and in `CrossSource` the following `norm_num`);
+  `SourceControls`, `ConservationControls`, `SmoothConsequences` (the `all_goals dsimp at hh`, `all_goals norm_num at
+  hh` and `all_goals ring1` guards on closed goals); `ConservationJets`, `SourcefulLaw` (the trailing `dsimp` /
+  `(try dsimp)` and `norm_num` steps); `PolynomialUniqueness`, `PolynomialConsequences` (the `norm_num` after
+  `try dsimp`).
 - One declaration given an unbounded heartbeat budget: `probe_formulas` in `UnrestrictedSourceKernel`.
 - One visibility change: `metricIntegral` in `StabilizerControls` is no longer `private`.
 - One module trimmed: `PfaffianBridge` now imports `ResponseBridge`, `HodgeConnection`, `StressTensor` and

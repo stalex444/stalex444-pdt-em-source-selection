@@ -23,7 +23,6 @@ private theorem constraint_000 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h
   try dsimp at h
-  norm_num at h
   linarith only [h]
 
 private theorem constraint_001 (c : Coeff) (hc : Covariant (source c))
@@ -36,7 +35,6 @@ private theorem constraint_001 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_002 (c : Coeff) (hc : Covariant (source c))
@@ -49,7 +47,6 @@ private theorem constraint_002 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_003 (c : Coeff) (hc : Covariant (source c))
@@ -62,7 +59,6 @@ private theorem constraint_003 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_004 (c : Coeff) (hc : Covariant (source c))
@@ -75,7 +71,6 @@ private theorem constraint_004 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_005 (c : Coeff) (hc : Covariant (source c))
@@ -88,7 +83,6 @@ private theorem constraint_005 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_006 (c : Coeff) (hc : Covariant (source c))
@@ -99,7 +93,6 @@ private theorem constraint_006 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h
   try dsimp at h
-  norm_num at h
   linarith only [h]
 
 private theorem constraint_007 (c : Coeff) (hc : Covariant (source c))
@@ -112,7 +105,6 @@ private theorem constraint_007 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_008 (c : Coeff) (hc : Covariant (source c))
@@ -125,7 +117,6 @@ private theorem constraint_008 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_009 (c : Coeff) (hc : Covariant (source c))
@@ -138,7 +129,6 @@ private theorem constraint_009 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_010 (c : Coeff) (hc : Covariant (source c))
@@ -151,7 +141,6 @@ private theorem constraint_010 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_011 (c : Coeff) (hc : Covariant (source c))
@@ -162,7 +151,6 @@ private theorem constraint_011 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h
   try dsimp at h
-  norm_num at h
   linarith only [h]
 
 private theorem constraint_012 (c : Coeff) (hc : Covariant (source c))
@@ -175,7 +163,6 @@ private theorem constraint_012 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_013 (c : Coeff) (hc : Covariant (source c))
@@ -188,7 +175,6 @@ private theorem constraint_013 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_014 (c : Coeff) (hc : Covariant (source c))
@@ -201,7 +187,6 @@ private theorem constraint_014 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_015 (c : Coeff) (hc : Covariant (source c))
@@ -212,7 +197,6 @@ private theorem constraint_015 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h
   try dsimp at h
-  norm_num at h
   linarith only [h]
 
 private theorem constraint_016 (c : Coeff) (hc : Covariant (source c))
@@ -225,7 +209,6 @@ private theorem constraint_016 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_017 (c : Coeff) (hc : Covariant (source c))
@@ -238,7 +221,6 @@ private theorem constraint_017 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_018 (c : Coeff) (hc : Covariant (source c))
@@ -249,7 +231,6 @@ private theorem constraint_018 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h
   try dsimp at h
-  norm_num at h
   linarith only [h]
 
 private theorem constraint_019 (c : Coeff) (hc : Covariant (source c))
@@ -262,7 +243,6 @@ private theorem constraint_019 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_020 (c : Coeff) (hc : Covariant (source c))
@@ -273,7 +253,6 @@ private theorem constraint_020 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h
   try dsimp at h
-  norm_num at h
   linarith only [h]
 
 private theorem constraint_021 (c : Coeff) (hc : Covariant (source c))
@@ -284,7 +263,6 @@ private theorem constraint_021 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h
   try dsimp at h
-  norm_num at h
   linarith only [h]
 
 private theorem constraint_022 (c : Coeff) (hc : Covariant (source c))
@@ -297,7 +275,6 @@ private theorem constraint_022 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_023 (c : Coeff) (hc : Covariant (source c))
@@ -310,7 +287,6 @@ private theorem constraint_023 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_024 (c : Coeff) (hc : Covariant (source c))
@@ -323,7 +299,6 @@ private theorem constraint_024 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_025 (c : Coeff) (hc : Covariant (source c))
@@ -336,7 +311,6 @@ private theorem constraint_025 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_026 (c : Coeff) (hc : Covariant (source c))
@@ -349,7 +323,6 @@ private theorem constraint_026 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_027 (c : Coeff) (hc : Covariant (source c))
@@ -360,7 +333,6 @@ private theorem constraint_027 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h
   try dsimp at h
-  norm_num at h
   linarith only [h]
 
 private theorem constraint_028 (c : Coeff) (hc : Covariant (source c))
@@ -373,7 +345,6 @@ private theorem constraint_028 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_029 (c : Coeff) (hc : Covariant (source c))
@@ -386,7 +357,6 @@ private theorem constraint_029 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_030 (c : Coeff) (hc : Covariant (source c))
@@ -399,7 +369,6 @@ private theorem constraint_030 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_031 (c : Coeff) (hc : Covariant (source c))
@@ -412,7 +381,6 @@ private theorem constraint_031 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_032 (c : Coeff) (hc : Covariant (source c))
@@ -423,7 +391,6 @@ private theorem constraint_032 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h
   try dsimp at h
-  norm_num at h
   linarith only [h]
 
 private theorem constraint_033 (c : Coeff) (hc : Covariant (source c))
@@ -436,7 +403,6 @@ private theorem constraint_033 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_034 (c : Coeff) (hc : Covariant (source c))
@@ -449,7 +415,6 @@ private theorem constraint_034 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_035 (c : Coeff) (hc : Covariant (source c))
@@ -462,7 +427,6 @@ private theorem constraint_035 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_036 (c : Coeff) (hc : Covariant (source c))
@@ -473,7 +437,6 @@ private theorem constraint_036 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h
   try dsimp at h
-  norm_num at h
   linarith only [h]
 
 private theorem constraint_037 (c : Coeff) (hc : Covariant (source c))
@@ -486,7 +449,6 @@ private theorem constraint_037 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_038 (c : Coeff) (hc : Covariant (source c))
@@ -499,7 +461,6 @@ private theorem constraint_038 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_039 (c : Coeff) (hc : Covariant (source c))
@@ -510,7 +471,6 @@ private theorem constraint_039 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h
   try dsimp at h
-  norm_num at h
   linarith only [h]
 
 private theorem constraint_040 (c : Coeff) (hc : Covariant (source c))
@@ -523,7 +483,6 @@ private theorem constraint_040 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_041 (c : Coeff) (hc : Covariant (source c))
@@ -534,7 +493,6 @@ private theorem constraint_041 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h
   try dsimp at h
-  norm_num at h
   linarith only [h]
 
 private theorem constraint_042 (c : Coeff) (hc : Covariant (source c))
@@ -545,7 +503,6 @@ private theorem constraint_042 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h
   try dsimp at h
-  norm_num at h
   linarith only [h]
 
 private theorem constraint_043 (c : Coeff) (hc : Covariant (source c))
@@ -558,7 +515,6 @@ private theorem constraint_043 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_044 (c : Coeff) (hc : Covariant (source c))
@@ -571,7 +527,6 @@ private theorem constraint_044 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_045 (c : Coeff) (hc : Covariant (source c))
@@ -584,7 +539,6 @@ private theorem constraint_045 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_046 (c : Coeff) (hc : Covariant (source c))
@@ -597,7 +551,6 @@ private theorem constraint_046 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_047 (c : Coeff) (hc : Covariant (source c))
@@ -610,7 +563,6 @@ private theorem constraint_047 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_048 (c : Coeff) (hc : Covariant (source c))
@@ -621,7 +573,6 @@ private theorem constraint_048 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h
   try dsimp at h
-  norm_num at h
   linarith only [h]
 
 private theorem constraint_049 (c : Coeff) (hc : Covariant (source c))
@@ -634,7 +585,6 @@ private theorem constraint_049 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_050 (c : Coeff) (hc : Covariant (source c))
@@ -647,7 +597,6 @@ private theorem constraint_050 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_051 (c : Coeff) (hc : Covariant (source c))
@@ -660,7 +609,6 @@ private theorem constraint_051 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_052 (c : Coeff) (hc : Covariant (source c))
@@ -673,7 +621,6 @@ private theorem constraint_052 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_053 (c : Coeff) (hc : Covariant (source c))
@@ -684,7 +631,6 @@ private theorem constraint_053 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h
   try dsimp at h
-  norm_num at h
   linarith only [h]
 
 private theorem constraint_054 (c : Coeff) (hc : Covariant (source c))
@@ -697,7 +643,6 @@ private theorem constraint_054 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_055 (c : Coeff) (hc : Covariant (source c))
@@ -710,7 +655,6 @@ private theorem constraint_055 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_056 (c : Coeff) (hc : Covariant (source c))
@@ -723,7 +667,6 @@ private theorem constraint_056 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_057 (c : Coeff) (hc : Covariant (source c))
@@ -734,7 +677,6 @@ private theorem constraint_057 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h
   try dsimp at h
-  norm_num at h
   linarith only [h]
 
 private theorem constraint_058 (c : Coeff) (hc : Covariant (source c))
@@ -747,7 +689,6 @@ private theorem constraint_058 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_059 (c : Coeff) (hc : Covariant (source c))
@@ -760,7 +701,6 @@ private theorem constraint_059 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_060 (c : Coeff) (hc : Covariant (source c))
@@ -771,7 +711,6 @@ private theorem constraint_060 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h
   try dsimp at h
-  norm_num at h
   linarith only [h]
 
 private theorem constraint_061 (c : Coeff) (hc : Covariant (source c))
@@ -784,7 +723,6 @@ private theorem constraint_061 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_062 (c : Coeff) (hc : Covariant (source c))
@@ -795,7 +733,6 @@ private theorem constraint_062 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h
   try dsimp at h
-  norm_num at h
   linarith only [h]
 
 private theorem constraint_063 (c : Coeff) (hc : Covariant (source c))
@@ -806,7 +743,6 @@ private theorem constraint_063 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h
   try dsimp at h
-  norm_num at h
   linarith only [h]
 
 private theorem constraint_064 (c : Coeff) (hc : Covariant (source c))
@@ -819,7 +755,6 @@ private theorem constraint_064 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_065 (c : Coeff) (hc : Covariant (source c))
@@ -832,7 +767,6 @@ private theorem constraint_065 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_066 (c : Coeff) (hc : Covariant (source c))
@@ -845,7 +779,6 @@ private theorem constraint_066 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_067 (c : Coeff) (hc : Covariant (source c))
@@ -858,7 +791,6 @@ private theorem constraint_067 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_068 (c : Coeff) (hc : Covariant (source c))
@@ -871,7 +803,6 @@ private theorem constraint_068 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_069 (c : Coeff) (hc : Covariant (source c))
@@ -882,7 +813,6 @@ private theorem constraint_069 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h
   try dsimp at h
-  norm_num at h
   linarith only [h]
 
 private theorem constraint_070 (c : Coeff) (hc : Covariant (source c))
@@ -895,7 +825,6 @@ private theorem constraint_070 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_071 (c : Coeff) (hc : Covariant (source c))
@@ -908,7 +837,6 @@ private theorem constraint_071 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_072 (c : Coeff) (hc : Covariant (source c))
@@ -921,7 +849,6 @@ private theorem constraint_072 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_073 (c : Coeff) (hc : Covariant (source c))
@@ -934,7 +861,6 @@ private theorem constraint_073 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_074 (c : Coeff) (hc : Covariant (source c))
@@ -945,7 +871,6 @@ private theorem constraint_074 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h
   try dsimp at h
-  norm_num at h
   linarith only [h]
 
 private theorem constraint_075 (c : Coeff) (hc : Covariant (source c))
@@ -958,7 +883,6 @@ private theorem constraint_075 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_076 (c : Coeff) (hc : Covariant (source c))
@@ -971,7 +895,6 @@ private theorem constraint_076 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_077 (c : Coeff) (hc : Covariant (source c))
@@ -984,7 +907,6 @@ private theorem constraint_077 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_078 (c : Coeff) (hc : Covariant (source c))
@@ -995,7 +917,6 @@ private theorem constraint_078 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h
   try dsimp at h
-  norm_num at h
   linarith only [h]
 
 private theorem constraint_079 (c : Coeff) (hc : Covariant (source c))
@@ -1008,7 +929,6 @@ private theorem constraint_079 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_080 (c : Coeff) (hc : Covariant (source c))
@@ -1021,7 +941,6 @@ private theorem constraint_080 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_081 (c : Coeff) (hc : Covariant (source c))
@@ -1032,7 +951,6 @@ private theorem constraint_081 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h
   try dsimp at h
-  norm_num at h
   linarith only [h]
 
 private theorem constraint_082 (c : Coeff) (hc : Covariant (source c))
@@ -1045,7 +963,6 @@ private theorem constraint_082 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_083 (c : Coeff) (hc : Covariant (source c))
@@ -1056,7 +973,6 @@ private theorem constraint_083 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h
   try dsimp at h
-  norm_num at h
   linarith only [h]
 
 private theorem constraint_084 (c : Coeff) (hc : Covariant (source c))
@@ -1069,7 +985,6 @@ private theorem constraint_084 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_085 (c : Coeff) (hc : Covariant (source c))
@@ -1082,7 +997,6 @@ private theorem constraint_085 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_086 (c : Coeff) (hc : Covariant (source c))
@@ -1095,7 +1009,6 @@ private theorem constraint_086 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_087 (c : Coeff) (hc : Covariant (source c))
@@ -1108,7 +1021,6 @@ private theorem constraint_087 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_088 (c : Coeff) (hc : Covariant (source c))
@@ -1121,7 +1033,6 @@ private theorem constraint_088 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_089 (c : Coeff) (hc : Covariant (source c))
@@ -1134,7 +1045,6 @@ private theorem constraint_089 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_090 (c : Coeff) (hc : Covariant (source c))
@@ -1147,7 +1057,6 @@ private theorem constraint_090 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_091 (c : Coeff) (hc : Covariant (source c))
@@ -1160,7 +1069,6 @@ private theorem constraint_091 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_092 (c : Coeff) (hc : Covariant (source c))
@@ -1171,7 +1079,6 @@ private theorem constraint_092 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h
   try dsimp at h
-  norm_num at h
   linarith only [h]
 
 private theorem constraint_093 (c : Coeff) (hc : Covariant (source c))
@@ -1184,7 +1091,6 @@ private theorem constraint_093 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_094 (c : Coeff) (hc : Covariant (source c))
@@ -1195,7 +1101,6 @@ private theorem constraint_094 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h
   try dsimp at h
-  norm_num at h
   linarith only [h]
 
 private theorem constraint_095 (c : Coeff) (hc : Covariant (source c))
@@ -1208,7 +1113,6 @@ private theorem constraint_095 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_096 (c : Coeff) (hc : Covariant (source c))
@@ -1221,7 +1125,6 @@ private theorem constraint_096 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_097 (c : Coeff) (hc : Covariant (source c))
@@ -1234,7 +1137,6 @@ private theorem constraint_097 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_098 (c : Coeff) (hc : Covariant (source c))
@@ -1245,7 +1147,6 @@ private theorem constraint_098 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h
   try dsimp at h
-  norm_num at h
   linarith only [h]
 
 private theorem constraint_099 (c : Coeff) (hc : Covariant (source c))
@@ -1258,7 +1159,6 @@ private theorem constraint_099 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_100 (c : Coeff) (hc : Covariant (source c))
@@ -1271,7 +1171,6 @@ private theorem constraint_100 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_101 (c : Coeff) (hc : Covariant (source c))
@@ -1282,7 +1181,6 @@ private theorem constraint_101 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h
   try dsimp at h
-  norm_num at h
   linarith only [h]
 
 private theorem constraint_102 (c : Coeff) (hc : Covariant (source c))
@@ -1295,7 +1193,6 @@ private theorem constraint_102 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_103 (c : Coeff) (hc : Covariant (source c))
@@ -1306,7 +1203,6 @@ private theorem constraint_103 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h
   try dsimp at h
-  norm_num at h
   linarith only [h]
 
 private theorem constraint_104 (c : Coeff) (hc : Covariant (source c))
@@ -1317,7 +1213,6 @@ private theorem constraint_104 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h
   try dsimp at h
-  norm_num at h
   linarith only [h]
 
 private theorem constraint_105 (c : Coeff) (hc : Covariant (source c))
@@ -1328,7 +1223,6 @@ private theorem constraint_105 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h
   try dsimp at h
-  norm_num at h
   linarith only [h]
 
 private theorem constraint_106 (c : Coeff) (hc : Covariant (source c))
@@ -1341,7 +1235,6 @@ private theorem constraint_106 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_107 (c : Coeff) (hc : Covariant (source c))
@@ -1352,7 +1245,6 @@ private theorem constraint_107 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h
   try dsimp at h
-  norm_num at h
   linarith only [h]
 
 private theorem constraint_108 (c : Coeff) (hc : Covariant (source c))
@@ -1365,7 +1257,6 @@ private theorem constraint_108 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_109 (c : Coeff) (hc : Covariant (source c))
@@ -1378,7 +1269,6 @@ private theorem constraint_109 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_110 (c : Coeff) (hc : Covariant (source c))
@@ -1391,7 +1281,6 @@ private theorem constraint_110 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_111 (c : Coeff) (hc : Covariant (source c))
@@ -1402,7 +1291,6 @@ private theorem constraint_111 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h
   try dsimp at h
-  norm_num at h
   linarith only [h]
 
 private theorem constraint_112 (c : Coeff) (hc : Covariant (source c))
@@ -1415,7 +1303,6 @@ private theorem constraint_112 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_113 (c : Coeff) (hc : Covariant (source c))
@@ -1428,7 +1315,6 @@ private theorem constraint_113 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_114 (c : Coeff) (hc : Covariant (source c))
@@ -1439,7 +1325,6 @@ private theorem constraint_114 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h
   try dsimp at h
-  norm_num at h
   linarith only [h]
 
 private theorem constraint_115 (c : Coeff) (hc : Covariant (source c))
@@ -1452,7 +1337,6 @@ private theorem constraint_115 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_116 (c : Coeff) (hc : Covariant (source c))
@@ -1463,7 +1347,6 @@ private theorem constraint_116 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h
   try dsimp at h
-  norm_num at h
   linarith only [h]
 
 private theorem constraint_117 (c : Coeff) (hc : Covariant (source c))
@@ -1474,7 +1357,6 @@ private theorem constraint_117 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h
   try dsimp at h
-  norm_num at h
   linarith only [h]
 
 private theorem constraint_118 (c : Coeff) (hc : Covariant (source c))
@@ -1487,7 +1369,6 @@ private theorem constraint_118 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_119 (c : Coeff) (hc : Covariant (source c))
@@ -1500,7 +1381,6 @@ private theorem constraint_119 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_120 (c : Coeff) (hc : Covariant (source c))
@@ -1513,7 +1393,6 @@ private theorem constraint_120 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_121 (c : Coeff) (hc : Covariant (source c))
@@ -1526,7 +1405,6 @@ private theorem constraint_121 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_122 (c : Coeff) (hc : Covariant (source c))
@@ -1537,7 +1415,6 @@ private theorem constraint_122 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h
   try dsimp at h
-  norm_num at h
   linarith only [h]
 
 private theorem constraint_123 (c : Coeff) (hc : Covariant (source c))
@@ -1550,7 +1427,6 @@ private theorem constraint_123 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_124 (c : Coeff) (hc : Covariant (source c))
@@ -1563,7 +1439,6 @@ private theorem constraint_124 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_125 (c : Coeff) (hc : Covariant (source c))
@@ -1576,7 +1451,6 @@ private theorem constraint_125 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_126 (c : Coeff) (hc : Covariant (source c))
@@ -1589,7 +1463,6 @@ private theorem constraint_126 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_127 (c : Coeff) (hc : Covariant (source c))
@@ -1600,7 +1473,6 @@ private theorem constraint_127 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h
   try dsimp at h
-  norm_num at h
   linarith only [h]
 
 private theorem constraint_128 (c : Coeff) (hc : Covariant (source c))
@@ -1613,7 +1485,6 @@ private theorem constraint_128 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_129 (c : Coeff) (hc : Covariant (source c))
@@ -1626,7 +1497,6 @@ private theorem constraint_129 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_130 (c : Coeff) (hc : Covariant (source c))
@@ -1639,7 +1509,6 @@ private theorem constraint_130 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_131 (c : Coeff) (hc : Covariant (source c))
@@ -1652,7 +1521,6 @@ private theorem constraint_131 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_132 (c : Coeff) (hc : Covariant (source c))
@@ -1665,7 +1533,6 @@ private theorem constraint_132 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_133 (c : Coeff) (hc : Covariant (source c))
@@ -1678,7 +1545,6 @@ private theorem constraint_133 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_134 (c : Coeff) (hc : Covariant (source c))
@@ -1691,7 +1557,6 @@ private theorem constraint_134 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_135 (c : Coeff) (hc : Covariant (source c))
@@ -1704,7 +1569,6 @@ private theorem constraint_135 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_136 (c : Coeff) (hc : Covariant (source c))
@@ -1715,7 +1579,6 @@ private theorem constraint_136 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h
   try dsimp at h
-  norm_num at h
   linarith only [h]
 
 private theorem constraint_137 (c : Coeff) (hc : Covariant (source c))
@@ -1728,7 +1591,6 @@ private theorem constraint_137 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_138 (c : Coeff) (hc : Covariant (source c))
@@ -1741,7 +1603,6 @@ private theorem constraint_138 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_139 (c : Coeff) (hc : Covariant (source c))
@@ -1754,7 +1615,6 @@ private theorem constraint_139 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_140 (c : Coeff) (hc : Covariant (source c))
@@ -1767,7 +1627,6 @@ private theorem constraint_140 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_141 (c : Coeff) (hc : Covariant (source c))
@@ -1778,7 +1637,6 @@ private theorem constraint_141 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h
   try dsimp at h
-  norm_num at h
   linarith only [h]
 
 private theorem constraint_142 (c : Coeff) (hc : Covariant (source c))
@@ -1791,7 +1649,6 @@ private theorem constraint_142 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_143 (c : Coeff) (hc : Covariant (source c))
@@ -1804,7 +1661,6 @@ private theorem constraint_143 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_144 (c : Coeff) (hc : Covariant (source c))
@@ -1817,7 +1673,6 @@ private theorem constraint_144 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_145 (c : Coeff) (hc : Covariant (source c))
@@ -1830,7 +1685,6 @@ private theorem constraint_145 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_146 (c : Coeff) (hc : Covariant (source c))
@@ -1843,7 +1697,6 @@ private theorem constraint_146 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_147 (c : Coeff) (hc : Covariant (source c))
@@ -1856,7 +1709,6 @@ private theorem constraint_147 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_148 (c : Coeff) (hc : Covariant (source c))
@@ -1869,7 +1721,6 @@ private theorem constraint_148 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_149 (c : Coeff) (hc : Covariant (source c))
@@ -1882,7 +1733,6 @@ private theorem constraint_149 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_150 (c : Coeff) (hc : Covariant (source c))
@@ -1893,7 +1743,6 @@ private theorem constraint_150 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h
   try dsimp at h
-  norm_num at h
   linarith only [h]
 
 private theorem constraint_151 (c : Coeff) (hc : Covariant (source c))
@@ -1906,7 +1755,6 @@ private theorem constraint_151 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_152 (c : Coeff) (hc : Covariant (source c))
@@ -1919,7 +1767,6 @@ private theorem constraint_152 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_153 (c : Coeff) (hc : Covariant (source c))
@@ -1932,7 +1779,6 @@ private theorem constraint_153 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_154 (c : Coeff) (hc : Covariant (source c))
@@ -1945,7 +1791,6 @@ private theorem constraint_154 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_155 (c : Coeff) (hc : Covariant (source c))
@@ -1956,7 +1801,6 @@ private theorem constraint_155 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h
   try dsimp at h
-  norm_num at h
   linarith only [h]
 
 private theorem constraint_156 (c : Coeff) (hc : Covariant (source c))
@@ -1969,7 +1813,6 @@ private theorem constraint_156 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_157 (c : Coeff) (hc : Covariant (source c))
@@ -1982,7 +1825,6 @@ private theorem constraint_157 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_158 (c : Coeff) (hc : Covariant (source c))
@@ -1995,7 +1837,6 @@ private theorem constraint_158 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_159 (c : Coeff) (hc : Covariant (source c))
@@ -2008,7 +1849,6 @@ private theorem constraint_159 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_160 (c : Coeff) (hc : Covariant (source c))
@@ -2021,7 +1861,6 @@ private theorem constraint_160 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_161 (c : Coeff) (hc : Covariant (source c))
@@ -2034,7 +1873,6 @@ private theorem constraint_161 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_162 (c : Coeff) (hc : Covariant (source c))
@@ -2047,7 +1885,6 @@ private theorem constraint_162 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_163 (c : Coeff) (hc : Covariant (source c))
@@ -2060,7 +1897,6 @@ private theorem constraint_163 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_164 (c : Coeff) (hc : Covariant (source c))
@@ -2073,7 +1909,6 @@ private theorem constraint_164 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_165 (c : Coeff) (hc : Covariant (source c))
@@ -2086,7 +1921,6 @@ private theorem constraint_165 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_166 (c : Coeff) (hc : Covariant (source c))
@@ -2099,7 +1933,6 @@ private theorem constraint_166 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_167 (c : Coeff) (hc : Covariant (source c))
@@ -2112,7 +1945,6 @@ private theorem constraint_167 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_168 (c : Coeff) (hc : Covariant (source c))
@@ -2125,7 +1957,6 @@ private theorem constraint_168 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_169 (c : Coeff) (hc : Covariant (source c))
@@ -2138,7 +1969,6 @@ private theorem constraint_169 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_170 (c : Coeff) (hc : Covariant (source c))
@@ -2151,7 +1981,6 @@ private theorem constraint_170 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_171 (c : Coeff) (hc : Covariant (source c))
@@ -2164,7 +1993,6 @@ private theorem constraint_171 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_172 (c : Coeff) (hc : Covariant (source c))
@@ -2177,7 +2005,6 @@ private theorem constraint_172 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_173 (c : Coeff) (hc : Covariant (source c))
@@ -2190,7 +2017,6 @@ private theorem constraint_173 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_174 (c : Coeff) (hc : Covariant (source c))
@@ -2203,7 +2029,6 @@ private theorem constraint_174 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_175 (c : Coeff) (hc : Covariant (source c))
@@ -2214,7 +2039,6 @@ private theorem constraint_175 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h
   try dsimp at h
-  norm_num at h
   linarith only [h]
 
 private theorem constraint_176 (c : Coeff) (hc : Covariant (source c))
@@ -2227,7 +2051,6 @@ private theorem constraint_176 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_177 (c : Coeff) (hc : Covariant (source c))
@@ -2238,7 +2061,6 @@ private theorem constraint_177 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h
   try dsimp at h
-  norm_num at h
   linarith only [h]
 
 private theorem constraint_178 (c : Coeff) (hc : Covariant (source c))
@@ -2251,7 +2073,6 @@ private theorem constraint_178 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_179 (c : Coeff) (hc : Covariant (source c))
@@ -2264,7 +2085,6 @@ private theorem constraint_179 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_180 (c : Coeff) (hc : Covariant (source c))
@@ -2275,7 +2095,6 @@ private theorem constraint_180 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h
   try dsimp at h
-  norm_num at h
   linarith only [h]
 
 private theorem constraint_181 (c : Coeff) (hc : Covariant (source c))
@@ -2286,7 +2105,6 @@ private theorem constraint_181 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h
   try dsimp at h
-  norm_num at h
   linarith only [h]
 
 private theorem constraint_182 (c : Coeff) (hc : Covariant (source c))
@@ -2297,7 +2115,6 @@ private theorem constraint_182 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h
   try dsimp at h
-  norm_num at h
   linarith only [h]
 
 private theorem constraint_183 (c : Coeff) (hc : Covariant (source c))
@@ -2310,7 +2127,6 @@ private theorem constraint_183 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_184 (c : Coeff) (hc : Covariant (source c))
@@ -2321,7 +2137,6 @@ private theorem constraint_184 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h
   try dsimp at h
-  norm_num at h
   linarith only [h]
 
 private theorem constraint_185 (c : Coeff) (hc : Covariant (source c))
@@ -2334,7 +2149,6 @@ private theorem constraint_185 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_186 (c : Coeff) (hc : Covariant (source c))
@@ -2347,7 +2161,6 @@ private theorem constraint_186 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_187 (c : Coeff) (hc : Covariant (source c))
@@ -2360,7 +2173,6 @@ private theorem constraint_187 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_188 (c : Coeff) (hc : Covariant (source c))
@@ -2371,7 +2183,6 @@ private theorem constraint_188 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h
   try dsimp at h
-  norm_num at h
   linarith only [h]
 
 private theorem constraint_189 (c : Coeff) (hc : Covariant (source c))
@@ -2384,7 +2195,6 @@ private theorem constraint_189 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_190 (c : Coeff) (hc : Covariant (source c))
@@ -2397,7 +2207,6 @@ private theorem constraint_190 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_191 (c : Coeff) (hc : Covariant (source c))
@@ -2408,7 +2217,6 @@ private theorem constraint_191 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h
   try dsimp at h
-  norm_num at h
   linarith only [h]
 
 private theorem constraint_192 (c : Coeff) (hc : Covariant (source c))
@@ -2421,7 +2229,6 @@ private theorem constraint_192 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_193 (c : Coeff) (hc : Covariant (source c))
@@ -2432,7 +2239,6 @@ private theorem constraint_193 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h
   try dsimp at h
-  norm_num at h
   linarith only [h]
 
 private theorem constraint_194 (c : Coeff) (hc : Covariant (source c))
@@ -2443,7 +2249,6 @@ private theorem constraint_194 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h
   try dsimp at h
-  norm_num at h
   linarith only [h]
 
 private theorem constraint_195 (c : Coeff) (hc : Covariant (source c))
@@ -2456,7 +2261,6 @@ private theorem constraint_195 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_196 (c : Coeff) (hc : Covariant (source c))
@@ -2469,7 +2273,6 @@ private theorem constraint_196 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_197 (c : Coeff) (hc : Covariant (source c))
@@ -2482,7 +2285,6 @@ private theorem constraint_197 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_198 (c : Coeff) (hc : Covariant (source c))
@@ -2495,7 +2297,6 @@ private theorem constraint_198 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_199 (c : Coeff) (hc : Covariant (source c))
@@ -2508,7 +2309,6 @@ private theorem constraint_199 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_200 (c : Coeff) (hc : Covariant (source c))
@@ -2521,9 +2321,7 @@ private theorem constraint_200 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_201 (c : Coeff) (hc : Covariant (source c))
@@ -2536,9 +2334,7 @@ private theorem constraint_201 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_202 (c : Coeff) (hc : Covariant (source c))
@@ -2551,9 +2347,7 @@ private theorem constraint_202 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_203 (c : Coeff) (hc : Covariant (source c))
@@ -2566,9 +2360,7 @@ private theorem constraint_203 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_204 (c : Coeff) (hc : Covariant (source c))
@@ -2579,9 +2371,7 @@ private theorem constraint_204 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h
   try dsimp at h
-  norm_num at h
   try dsimp at h
-  norm_num at h
   linarith only [h]
 
 private theorem constraint_205 (c : Coeff) (hc : Covariant (source c))
@@ -2594,9 +2384,7 @@ private theorem constraint_205 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 private theorem constraint_206 (c : Coeff) (hc : Covariant (source c))
@@ -2607,9 +2395,7 @@ private theorem constraint_206 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h
   try dsimp at h
-  norm_num at h
   try dsimp at h
-  norm_num at h
   linarith only [h]
 
 private theorem constraint_207 (c : Coeff) (hc : Covariant (source c))
@@ -2620,7 +2406,6 @@ private theorem constraint_207 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h
   try dsimp at h
-  norm_num at h
   linarith only [h]
 
 private theorem constraint_208 (c : Coeff) (hc : Covariant (source c))
@@ -2633,7 +2418,6 @@ private theorem constraint_208 (c : Coeff) (hc : Covariant (source c))
   norm_num [defect,variation,dpoly,source,poly,field_action_formula,tensorAction,lorentz_formula,lorentzTable,
       Matrix.add_apply,Pi.add_apply,Pi.smul_apply,Matrix.mul_apply,Matrix.transpose_apply,Fin.sum_univ_succ,Fin.succ,monomialPair,tensorIndex,Pi.single_apply] at h ha hb
   try dsimp at h ha hb
-  norm_num at h ha hb
   linarith only [h,ha,hb]
 
 theorem constraints_from_laws (c : Coeff) (hc : Covariant (source c))

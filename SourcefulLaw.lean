@@ -26,14 +26,14 @@ def currentJet : Fin 4 → Jet :=
 
 set_option linter.unusedTactic false in
 theorem current_jet_bianchi (a : Fin 4) : bianchiJet (registerJet (currentJet a)) := by
-  fin_cases a <;> norm_num [bianchiJet,registerJet,currentJet,embed] <;> (try dsimp) <;> norm_num
+  fin_cases a <;> norm_num [bianchiJet,registerJet,currentJet,embed]
 
 set_option linter.unusedTactic false in
 theorem current_jet_current (a : Fin 4) (k : ℝ) :
     sourcedCurrent k (registerJet (currentJet a))=k • Pi.single a 1 := by
   ext ν
   fin_cases a <;> fin_cases ν <;>
-    norm_num [sourcedCurrent,registerJet,currentJet,embed,field,Fin.sum_univ_succ,Pi.single_apply] <;> (try dsimp) <;> norm_num
+    norm_num [sourcedCurrent,registerJet,currentJet,embed,field,Fin.sum_univ_succ,Pi.single_apply]
 
 theorem current_coefficient (k : ℝ) (D : Jet) :
     sourcedCurrent k (registerJet D)=k • sourcedCurrent 1 (registerJet D) := by

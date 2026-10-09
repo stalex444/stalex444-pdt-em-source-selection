@@ -33,12 +33,11 @@ def testJet : Fin 16 → Jet :=
 theorem testJet_vacuum (k : Fin 16) : VacuumJet (testJet k) := by
   constructor
   · fin_cases k <;>
-      norm_num [VacuumJet,PDTStressBalance.bianchiJet,registerJet,testJet,embed] <;>
-      dsimp <;> norm_num
+      norm_num [VacuumJet,PDTStressBalance.bianchiJet,registerJet,testJet,embed]
   · ext ν
     fin_cases k <;> fin_cases ν <;>
       norm_num [PDTStressBalance.sourcedCurrent,registerJet,testJet,embed,field,
-        Fin.sum_univ_succ] <;> (try dsimp) <;> norm_num
+        Fin.sum_univ_succ]
 
 #print axioms testJet_vacuum
 end

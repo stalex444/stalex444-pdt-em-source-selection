@@ -19,7 +19,7 @@ private theorem diagonal_action (d : Fin 6 → ℝ) (x : I → ℝ) :
     lift (Matrix.diagonal d) *ᵥ x=fun p => d (ia p)*d (ib p)*x p := by
   ext p
   fin_cases p <;> simp only [Matrix.mulVec,dotProduct,Fin.sum_univ_succ] <;> norm_num [lift,Matrix.diagonal_apply,Matrix.mulVec,dotProduct,
-    ia,ib,Fin.sum_univ_succ] <;> ring!
+    ia,ib,Fin.sum_univ_succ]
 
 theorem diagonal_value (d : Fin 6 → ℝ) (x : I → ℝ) :
     value (lift (Matrix.diagonal d) *ᵥ x)=(Matrix.diagonal d).det*value x := by
@@ -35,7 +35,7 @@ private theorem action01_eq (a : ℝ) (x : I → ℝ) :
     lift (Matrix.transvection 0 1 a) *ᵥ x=action01 a x := by
   ext p
   fin_cases p <;> simp only [Matrix.mulVec,dotProduct,Fin.sum_univ_succ] <;> norm_num [lift,Matrix.transvection,Matrix.single_apply,Matrix.one_apply,
-    Matrix.mulVec,dotProduct,ia,ib,Fin.sum_univ_succ,action01] <;> ring!
+    Matrix.mulVec,dotProduct,ia,ib,Fin.sum_univ_succ,action01]
 
 private theorem value01 (a : ℝ) (x : I → ℝ) :
     value (lift (Matrix.transvection 0 1 a) *ᵥ x)=value x := by
@@ -51,7 +51,8 @@ private theorem action02_eq (a : ℝ) (x : I → ℝ) :
     lift (Matrix.transvection 0 2 a) *ᵥ x=action02 a x := by
   ext p
   fin_cases p <;> simp only [Matrix.mulVec,dotProduct,Fin.sum_univ_succ] <;> norm_num [lift,Matrix.transvection,Matrix.single_apply,Matrix.one_apply,
-    Matrix.mulVec,dotProduct,ia,ib,Fin.sum_univ_succ,action02] <;> ring!
+    Matrix.mulVec,dotProduct,ia,ib,Fin.sum_univ_succ,action02]
+  ring!
 
 private theorem value02 (a : ℝ) (x : I → ℝ) :
     value (lift (Matrix.transvection 0 2 a) *ᵥ x)=value x := by
@@ -131,7 +132,7 @@ private theorem action12_eq (a : ℝ) (x : I → ℝ) :
     lift (Matrix.transvection 1 2 a) *ᵥ x=action12 a x := by
   ext p
   fin_cases p <;> simp only [Matrix.mulVec,dotProduct,Fin.sum_univ_succ] <;> norm_num [lift,Matrix.transvection,Matrix.single_apply,Matrix.one_apply,
-    Matrix.mulVec,dotProduct,ia,ib,Fin.sum_univ_succ,action12] <;> ring!
+    Matrix.mulVec,dotProduct,ia,ib,Fin.sum_univ_succ,action12]
 
 private theorem value12 (a : ℝ) (x : I → ℝ) :
     value (lift (Matrix.transvection 1 2 a) *ᵥ x)=value x := by
@@ -147,7 +148,8 @@ private theorem action13_eq (a : ℝ) (x : I → ℝ) :
     lift (Matrix.transvection 1 3 a) *ᵥ x=action13 a x := by
   ext p
   fin_cases p <;> simp only [Matrix.mulVec,dotProduct,Fin.sum_univ_succ] <;> norm_num [lift,Matrix.transvection,Matrix.single_apply,Matrix.one_apply,
-    Matrix.mulVec,dotProduct,ia,ib,Fin.sum_univ_succ,action13] <;> ring!
+    Matrix.mulVec,dotProduct,ia,ib,Fin.sum_univ_succ,action13]
+  ring!
 
 private theorem value13 (a : ℝ) (x : I → ℝ) :
     value (lift (Matrix.transvection 1 3 a) *ᵥ x)=value x := by
@@ -227,7 +229,7 @@ private theorem action23_eq (a : ℝ) (x : I → ℝ) :
     lift (Matrix.transvection 2 3 a) *ᵥ x=action23 a x := by
   ext p
   fin_cases p <;> simp only [Matrix.mulVec,dotProduct,Fin.sum_univ_succ] <;> norm_num [lift,Matrix.transvection,Matrix.single_apply,Matrix.one_apply,
-    Matrix.mulVec,dotProduct,ia,ib,Fin.sum_univ_succ,action23] <;> ring!
+    Matrix.mulVec,dotProduct,ia,ib,Fin.sum_univ_succ,action23]
 
 private theorem value23 (a : ℝ) (x : I → ℝ) :
     value (lift (Matrix.transvection 2 3 a) *ᵥ x)=value x := by
@@ -243,7 +245,8 @@ private theorem action24_eq (a : ℝ) (x : I → ℝ) :
     lift (Matrix.transvection 2 4 a) *ᵥ x=action24 a x := by
   ext p
   fin_cases p <;> simp only [Matrix.mulVec,dotProduct,Fin.sum_univ_succ] <;> norm_num [lift,Matrix.transvection,Matrix.single_apply,Matrix.one_apply,
-    Matrix.mulVec,dotProduct,ia,ib,Fin.sum_univ_succ,action24] <;> ring!
+    Matrix.mulVec,dotProduct,ia,ib,Fin.sum_univ_succ,action24]
+  ring!
 
 private theorem value24 (a : ℝ) (x : I → ℝ) :
     value (lift (Matrix.transvection 2 4 a) *ᵥ x)=value x := by
@@ -323,7 +326,7 @@ private theorem action34_eq (a : ℝ) (x : I → ℝ) :
     lift (Matrix.transvection 3 4 a) *ᵥ x=action34 a x := by
   ext p
   fin_cases p <;> simp only [Matrix.mulVec,dotProduct,Fin.sum_univ_succ] <;> norm_num [lift,Matrix.transvection,Matrix.single_apply,Matrix.one_apply,
-    Matrix.mulVec,dotProduct,ia,ib,Fin.sum_univ_succ,action34] <;> ring!
+    Matrix.mulVec,dotProduct,ia,ib,Fin.sum_univ_succ,action34]
 
 private theorem value34 (a : ℝ) (x : I → ℝ) :
     value (lift (Matrix.transvection 3 4 a) *ᵥ x)=value x := by
@@ -339,7 +342,8 @@ private theorem action35_eq (a : ℝ) (x : I → ℝ) :
     lift (Matrix.transvection 3 5 a) *ᵥ x=action35 a x := by
   ext p
   fin_cases p <;> simp only [Matrix.mulVec,dotProduct,Fin.sum_univ_succ] <;> norm_num [lift,Matrix.transvection,Matrix.single_apply,Matrix.one_apply,
-    Matrix.mulVec,dotProduct,ia,ib,Fin.sum_univ_succ,action35] <;> ring!
+    Matrix.mulVec,dotProduct,ia,ib,Fin.sum_univ_succ,action35]
+  ring!
 
 private theorem value35 (a : ℝ) (x : I → ℝ) :
     value (lift (Matrix.transvection 3 5 a) *ᵥ x)=value x := by
@@ -419,7 +423,7 @@ private theorem action45_eq (a : ℝ) (x : I → ℝ) :
     lift (Matrix.transvection 4 5 a) *ᵥ x=action45 a x := by
   ext p
   fin_cases p <;> simp only [Matrix.mulVec,dotProduct,Fin.sum_univ_succ] <;> norm_num [lift,Matrix.transvection,Matrix.single_apply,Matrix.one_apply,
-    Matrix.mulVec,dotProduct,ia,ib,Fin.sum_univ_succ,action45] <;> ring!
+    Matrix.mulVec,dotProduct,ia,ib,Fin.sum_univ_succ,action45]
 
 private theorem value45 (a : ℝ) (x : I → ℝ) :
     value (lift (Matrix.transvection 4 5 a) *ᵥ x)=value x := by

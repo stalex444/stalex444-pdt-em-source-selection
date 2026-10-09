@@ -48,8 +48,7 @@ theorem action_reference : action *ᵥ reference=reference := by
   rw [lift_column]
   ext p
   fin_cases p <;>
-    norm_num [wedge,complementReflection,ia,ib,Matrix.diagonal_apply,Pi.single_apply] <;>
-    simp +decide
+    norm_num [wedge,complementReflection,ia,ib,Matrix.diagonal_apply,Pi.single_apply]
 
 theorem action_commutes_hodge : action*PDTHodgeConnection.H=PDTHodgeConnection.H*action :=
   (commutes_iff action action_metric action_cubic).mpr action_reference

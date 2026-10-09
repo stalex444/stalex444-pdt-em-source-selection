@@ -19,7 +19,7 @@ theorem cross_original_variation (b x : Local) :
   fin_cases i <;> fin_cases j <;>
     norm_num [linear,crossCoefficients,tensorIndex,Fin.sum_univ_succ,
       PDTStressBalance.firstVariation,PDTStressBalance.crossInvariant,field,embed,
-      PDTMaxwellSymbol.mink,metric,eta,Matrix.diagonal_apply] <;> (try dsimp) <;> norm_num <;> ring
+      PDTMaxwellSymbol.mink,metric,eta,Matrix.diagonal_apply] <;> ring
 
 theorem cross_stress_increment (b x : Local) :
     registerStress 1 (embed (b+x))=registerStress 1 (embed b)+

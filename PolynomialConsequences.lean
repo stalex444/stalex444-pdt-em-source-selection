@@ -25,7 +25,6 @@ theorem covariant_family_trace (c d : ℝ) (x : Local) :
   simp only [covariantFamily,Matrix.add_apply]
   norm_num [metric,eta,Matrix.diagonal_apply]
   try dsimp
-  norm_num
   linarith only [h]
 
 theorem trace_free_iff_no_constant (c d : ℝ) : TraceFree (covariantFamily c d) ↔ c=0 := by

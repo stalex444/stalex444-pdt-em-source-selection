@@ -24,7 +24,7 @@ theorem maxwell_original (x : Local) :
   fin_cases i <;> fin_cases j <;>
     norm_num [source,poly,monomialPair,tensorIndex,maxwellCoefficients,Fin.sum_univ_succ,
       registerStress,stress,field,embed,metric,eta,Matrix.diagonal,invariant,PDTMaxwellSymbol.mink] <;>
-    (try dsimp) <;> ring
+    ring
 theorem scaled_maxwell_original (d : ℝ) (x : Local) :
     source (d • maxwellCoefficients) x=registerStress d (embed x) := by
   rw [source_smul,maxwell_original]
@@ -49,7 +49,7 @@ theorem maxwell_covariance (d : ℝ) : Covariant (source (d • maxwellCoefficie
   fin_cases k <;> fin_cases i <;> fin_cases j <;>
     norm_num [variation,dpoly,source,poly,maxwellCoefficients,monomialPair,tensorIndex,
       field_action_formula,tensorAction,lorentz_formula,lorentzTable,Matrix.mul_apply,
-      Matrix.transpose_apply,Fin.sum_univ_succ] <;> (try dsimp) <;> ring
+      Matrix.transpose_apply,Fin.sum_univ_succ] <;> ring
 
 theorem original_covariant (d : ℝ) : Covariant (fun x => registerStress d (embed x)) := by
   have h : (fun x => registerStress d (embed x))=source (d • maxwellCoefficients) := by

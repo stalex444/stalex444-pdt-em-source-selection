@@ -32,8 +32,6 @@ theorem constant_metric_not_trace_free : ¬ TraceFree (fun _ => metric) := by
   intro h
   have hh := h 0
   norm_num [metric,Matrix.diagonal,eta] at hh
-  all_goals dsimp at hh
-  all_goals norm_num at hh
 
 /-- Selecting just one stress column preserves conservation but removes symmetry. -/
 def columnSource (x : Local) : Tensor := fun μ ν =>
@@ -61,8 +59,6 @@ theorem column_not_symmetric : ¬ ∀ x, (columnSource x).transpose=columnSource
   have hh := congrArg (fun T : Tensor => T 0 1) (h ![0,1,0,1,0,0])
   norm_num [columnSource,registerStress,stress,field,embed,metric,Matrix.diagonal,eta,
     invariant,PDTMaxwellSymbol.mink,Matrix.transpose_apply] at hh
-  all_goals dsimp at hh
-  all_goals norm_num at hh
 
 #print axioms constant_metric_conserved
 #print axioms quadratic_at_zero

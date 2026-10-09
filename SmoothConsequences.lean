@@ -57,7 +57,6 @@ theorem exponential_source_not_conserved : ¬ Conserved exponentialSource := by
   have hh := congrFun (h 0 (testJet 0) (testJet_vacuum 0)) 0
   norm_num [divergence,exponentialSource,testJet,Fin.sum_univ_succ] at hh
   try dsimp at hh
-  all_goals norm_num at hh
 
 /-- Covariance still has an independent role even after regularity replaces the degree bound. -/
 theorem smooth_covariance_control :
